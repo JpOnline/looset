@@ -9,7 +9,7 @@ The tool will show you an interpretation, a **point of view**, a way to see the 
 Not all of us rely strongly of human input, Looset Diagram and Looset Code bring ways to visualize or discover your code that doesn't require a lot of human input, while me (Looset Page) and Looset Glossary require more human input to combine them in a useful way.
 The whole family uses some common concepts.
 ## Common Concepts
-### Code Block
+### Code Block or CB
 
 <div style="text-align: center;">
   <img style="text-align:center;" src="images/Screenshot 2020-06-30 at 01.34.08.png" width=400>

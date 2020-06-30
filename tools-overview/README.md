@@ -28,15 +28,13 @@ It's where human can input knowledge and see a reflection of what gets written i
 
 ### Label Panel
 
-<img align="left" src="images/labels-for-post1.png" height=350>
-<img align="right" src="images/labels-for-post2.png" height=350>
+<img align="left" src="images/labels-for-post1.png" height=280>
+<img align="right" src="images/labels-for-post2.png" height=280>
 
 It's a general overview of your code base better than the file system. A Label is very similar to a folder: it can contain Code Blocks and other Labels. The difference is that CBs and Labels can be in more than a Label at the same time. E.g. a CB called `getFeatureIdsAt` can be in the `Main API`, so if we expand the Label we can see it's there, but the same `getFeatureIdsAt` CB can also be in the `Point` Label and we can see it in both places.
 
 By itself the Label system already enables a bunch of possibilities to structure your CBs. For instance you could have, at the same time, labels representing an MVC structure and other Labels structuring your CBs by functionalities.
 
-<br>
-<br>
 <br>
 
 ## Looset Diagram

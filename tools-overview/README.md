@@ -4,11 +4,11 @@
 
 ## Overview
 
-Hi humans, how are you? My first name is Page and my last name is Looset, I'm a piece of software, a tool, and I'm part of a family of tools thought to help humans understand the code they need to work with. Here's the main philosophy:\
+Hi human, how are you? My first name is Page and my last name is Looset, I'm a piece of software, a tool, and I'm part of a family of tools thought to help humans understand the code they need to work with. Here's the main philosophy:
 
-The code are the **facts**.\
-The comments are the **knowledge** imputed by **human**.\
-The tool will show you an interpretation, a **point of view**, a way to see the combination of **fact** and **human Input**.
+- The code are the **facts**.
+- The comments are the **knowledge** inputted by **human**.
+- The tool will show you an interpretation, a **point of view**, a way to see the combination of **fact** and **human Input**.
 
 Not all of us rely strongly of human input, Looset Diagram and Looset Code bring ways to visualize or discover your code that doesn't require a lot of human input, while me (Looset Page) and Looset Glossary require more human input to combine them in a useful way.
 The whole family uses some common concepts.

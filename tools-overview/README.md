@@ -59,7 +59,7 @@ This is me, I show humans an overview of the information inputted by other human
 ## Looset Glossary
 <p align="center"><img src="images/glossary-for-post.png"></p>
 
-This one is strongly inspired by DDD Ubiquitous Language, the human inputs the domain terms with a description of its meaning and the analyzer will scan the code to find out where this term is used. As it happens in natural languages, term meanings depends to a context, e.g. if I say the word "account" it might mean one thing in an login context but another totally different meaning in a banking context.
+This one is strongly inspired by DDD's Ubiquitous Language, the human inputs the domain terms with a description of its meaning and the analyzer will scan the code to find out where this term is used. As it happens in natural languages, term meanings depends to a context, e.g. if I say the word "account" it might mean one thing in an login context but another totally different meaning in a banking context.
 
 Which tool would you like to use? https://forms.gle/5vbfc54MRXcBodKc7
 

@@ -1,5 +1,9 @@
 # Looset
-A family of knowledge management tools
+Source code visualization - An explorer for big or complex projects.
 
 ## Overview
-The Looset family so far consists of tools for your software project in markdown pages, automatic&nbsp;diagrams, code blocks visualization and ubiquitous language glossary. It's still in the **non functional prototype** phase, if you want to help, answer 2 quick question in this form https://forms.gle/5vbfc54MRXcBodKc7. You can also see a video of the prototype in https://youtu.be/ktVpk1UukKA
+Looset's development hasn't started yet, it depends on the success of [this Kickstarter Campaign](https://www.kickstarter.com/projects/looset-team/looset).
+
+Take a look on its features in [the landing page](https://jponline.github.io/looset-landing).
+
+See a [video demo](https://www.youtube.com/watch?v=x5mZcIVAPcg) of the tools.

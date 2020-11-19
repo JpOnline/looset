@@ -1,0 +1,1125 @@
+[{:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/api.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/Command.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandAdd.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandAddVertex.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandAssignFigure.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandAttr.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandBoundingBox.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandCollection.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandConnect.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandDelete.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandDeleteGroup.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandGroup.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandMove.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandMoveConnection.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandMoveLine.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandMoveVertex.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandMoveVertices.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandReconnect.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandRemoveVertex.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandReplaceVertices.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandResize.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandRotate.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandStack.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandStackEvent.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandStackEventListener.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandType.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/command/CommandUngroup.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/css/contextmenu.css"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/events.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/anchor/CenterEdgeConnectionAnchor.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/anchor/ChopboxConnectionAnchor.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/anchor/ConnectionAnchor.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/anchor/FanConnectionAnchor.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/anchor/ShortesPathConnectionAnchor.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/CircuitConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/ConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/DirectRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/FanConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/InteractiveManhattanConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/ManhattanBridgedConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/ManhattanConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/MazeConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/MuteableManhattanConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/RubberbandRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/SketchConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/SplineConnectionRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/connection/VertexRouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/BottomLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/CenterLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/ConnectionLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/DraggableLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/InputPortLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/LeftLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/Locator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/ManhattanMidpointLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/OutputPortLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/ParallelMidpointLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/PolylineMidpointLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/PortLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/RightLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/SmartDraggableLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/TopLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/XYAbsPortLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/locator/XYRelPortLocator.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/mesh/ExplodeLayouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/mesh/MeshLayouter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/layout/mesh/ProposedMeshChange.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/modes/direct_select.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/modes/draw_line_string.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/modes/draw_point.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/modes/draw_polygon.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/modes/index.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/modes/mode_interface.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/modes/object_to_mode.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/modes/simple_select.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/options.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/render.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/setup.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/analog/OpAmp.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/analog/ResistorBridge.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/analog/ResistorVertical.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/analog/VoltageSupplyHorizontal.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/analog/VoltageSupplyVertical.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/arrow/CalligrapherArrowDownLeft.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/arrow/CalligrapherArrowLeft.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Arc.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Circle.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Diamond.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/GhostVertexResizeHandle.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Image.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Label.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Line.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/LineEndResizeHandle.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/LineResizeHandle.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/LineStartResizeHandle.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Oval.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/PolyLine.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Polygon.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Rectangle.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/Text.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/basic/VertexResizeHandle.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/composite/Composite.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/composite/Group.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/composite/Jailhouse.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/composite/Raft.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/composite/StrongComposite.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/composite/WeakComposite.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/diagram/Diagram.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/diagram/Pie.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/diagram/Sparkline.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/dimetric/Rectangle.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/flowchart/Document.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Acw.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Alarm.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Anonymous.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Apple.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Apps.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ArrowAlt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ArrowDown.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ArrowLeft.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ArrowLeft2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ArrowLeftAlt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ArrowRight.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ArrowRight2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ArrowUp.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Attention.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Aumade.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/BarChart.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/BioHazard.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Book.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Bookmark.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Books.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Bubble.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Bug.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Calendar.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Cart.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Ccw.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Chat.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Check.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Chrome.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Clip.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Clock.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Cloud.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Cloud2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/CloudDown.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/CloudUp.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Cloudy.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Code.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/CodeTalk.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/CommandLine.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Connect.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Contract.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Crop.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Cross.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Cube.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Customer.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Db.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Detour.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Diagram.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Disconnect.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/DockBottom.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/DockLeft.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/DockRight.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/DockTop.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Dollar.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Download.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Dry.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Employee.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/End.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Ethernet.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Exchange.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Expand.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Export.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Fave.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Feed.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Ff.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Firefox.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Flag.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Flickr.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Folder.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Font.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Fork.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ForkAlt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/FullCube.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Future.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/GRaphael.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Gear.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Gear2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/GitHub.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/GitHubAlt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Glasses.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Globe.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/GlobeAlt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/GlobeAlt2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Hail.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Hammer.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/HammerAndScrewDriver.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/HangUp.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Help.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/History.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Home.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/IMac.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Icon.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Icons.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Ie.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Ie9.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Import.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Info.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/InkScape.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Ipad.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Iphone.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/JQuery.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Jigsaw.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Key.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Lab.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Lamp.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Lamp_alt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Landing.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Landscape1.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Landscape2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/LineChart.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Link.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/LinkedIn.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Linux.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/List.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Location.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Lock.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Locked.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Magic.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Magnet.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Mail.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Man.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Merge.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Mic.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/MicMute.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Minus.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/NewWindow.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/No.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/NoMagnet.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/NodeJs.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Notebook.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Noview.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Opera.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Package.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Page.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Page2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Pallete.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Palm.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Paper.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Parent.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Pc.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Pen.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Pensil.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/People.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Phone.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Photo.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Picker.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Picture.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/PieChart.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Plane.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Plugin.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Plus.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Power.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Ppt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Printer.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Question.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Question2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Quote.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Rain.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Raphael.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ReflectH.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ReflectV.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Refresh.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Resize2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Rotate.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Ruler.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Run.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Rw.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Safari.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ScrewDriver.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Search.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Sencha.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Settings.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/SettingsAlt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Shuffle.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Skull.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Skype.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/SlideShare.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Smile.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Smile2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Snow.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Split.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Star.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Star2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Star2Off.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Star3.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Star3Off.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/StarOff.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Start.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Sticker.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Stop.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/StopSign.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/StopWatch.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Sun.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Svg.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/TShirt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Tag.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/TakeOff.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Talke.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Talkq.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Temp.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Thunder.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Trash.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Twitter.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/TwitterBird.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Umbrella.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Undo.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Unlock.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Usb.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/User.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Users.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Video.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/View.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Vim.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Volume0.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Volume1.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Volume2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Volume3.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Warning.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/WheelChair.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Windows.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Woman.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Wrench.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Wrench2.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/Wrench3.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ZoomIn.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/icon/ZoomOut.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/layout/FlexGridLayout.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/layout/HorizontalLayout.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/layout/Layout.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/layout/StackLayout.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/layout/TableLayout.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/layout/VerticalLayout.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/node/Between.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/node/End.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/node/Fulcrum.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/node/HorizontalBus.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/node/Hub.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/node/Node.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/node/Start.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/node/VerticalBus.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/note/PostIt.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/pert/Activity.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/pert/Start.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/state/Connection.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/state/End.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/state/Start.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/state/State.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/widget/Slider.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/shape/widget/Widget.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/ui/LabelEditor.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/ui/LabelInplaceEditor.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/util/ArrayList.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/util/Base64.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/util/Blob.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/util/Color.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/util/Debug.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/util/JSONUtil.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/util/Polyfill.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/util/SVGUtil.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/util/UUID.js"}
+ {:indentation-level-to-search 0,
+  :file-path "../../../projects-example/draw-map-shape/util/extend.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/util/raphael_ext.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/util/spline/BezierSpline.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/util/spline/CatmullRomSpline.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/util/spline/CubicSpline.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/util/spline/Spline.js"}
+ {:indentation-level-to-search 0,
+  :file-path
+  "../../../projects-example/draw-map-shape/ignored-by-git.js"}]

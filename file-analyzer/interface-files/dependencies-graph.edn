@@ -1,0 +1,2525 @@
+(ns looset-diagram-mvp.ui.initial-state)
+
+(def
+ initial-state
+ {:domain
+  {:graph
+   {"../../../projects-example/draw-map-shape/shape/icon/Settings.js<>draw2d"
+    #{"let" "Settings" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Plane.js<>Plane"
+    #{"Plane" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Dry.js<>draw2d"
+    #{"let" "Dry" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Star.js<>Star"
+    #{"Star" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>getUniqueIds"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Hammer.js<>draw2d"
+    #{"let" "Hammer" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Settings.js<>Settings"
+    #{"Settings" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onDrag"
+    #{"else" "dragFeature" "dragVertex"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>deselect"
+    #{"deselect"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>deleteFeature"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowLeft.js<>draw2d"
+    #{"let" "ArrowLeft" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Smile2.js<>draw2d"
+    #{"let" "Smile2" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Arc.js<>Arc"
+    #{"let" "Arc" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js<>clickAnywhere"
+    #{"else" "updateUIClasses" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Expand.js<>Expand"
+    #{"Expand" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/ConnectionRouter.js<>draw2d"
+    #{"Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/widget/Widget.js<>Widget"
+    #{"function"},
+    "../../../projects-example/draw-map-shape/shape/icon/StopSign.js<>StopSign"
+    #{"StopSign" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/CloudDown.js<>CloudDown"
+    #{"function" "CloudDown" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/state/State.js<>State"
+    #{"BottomLocator" "let" "ChopboxConnectionAnchor" "text" "function"
+      "Label" "display" "State" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/GhostVertexResizeHandle.js<>draw2d"
+    #{"LineResizeHandle" "polygon" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/BottomLocator.js<>BottomLocator"
+    #{"else" "BottomLocator" "let" "Figure" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Warning.js<>draw2d"
+    #{"let" "Warning" "draw2d"},
+    "../../../projects-example/draw-map-shape/render.js<>render"
+    #{"else" "push" "let" "function" "ctx" "getSelected"},
+    "../../../projects-example/draw-map-shape/layout/mesh/MeshLayouter.js<>MeshLayouter"
+    #{"Figure" "function" "draw2d" "MeshLayouter" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/icon/SettingsAlt.js<>draw2d"
+    #{"let" "draw2d" "SettingsAlt"},
+    "../../../projects-example/draw-map-shape/shape/icon/Gear2.js<>draw2d"
+    #{"let" "Gear2" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Palm.js<>Palm"
+    #{"Palm" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/LineStartResizeHandle.js<>LineStartResizeHandle"
+    #{"onDrag" "let" "function" "Connection" "LineStartResizeHandle"
+      "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_point.js<>onStop"
+    #{"deleteFeature" "activateUIButton"},
+    "../../../projects-example/draw-map-shape/command/CommandAttr.js<>CommandAttr"
+    #{"CommandAttr" "CommandMove" "Figure" "function" "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cloud.js<>draw2d"
+    #{"let" "draw2d" "Cloud"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cloud.js<>Cloud"
+    #{"function" "draw2d" "Cloud"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>context-menu-item"
+    #{"position"},
+    "../../../projects-example/draw-map-shape/shape/icon/Iphone.js<>draw2d"
+    #{"Iphone" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandMoveConnection.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/dimetric/Rectangle.js<>draw2d"
+    #{"let" "Figure" "dimetric" "draw2d" "Polygon"},
+    "../../../projects-example/draw-map-shape/shape/icon/JQuery.js<>JQuery"
+    #{"function" "JQuery" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandStackEvent.js<>CommandStackEvent"
+    #{"CommandStackEvent" "CommandStack" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/composite/WeakComposite.js<>WeakComposite"
+    #{"function" "draw2d" "WeakComposite"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowDown.js<>ArrowDown"
+    #{"ArrowDown" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Key.js<>Key"
+    #{"Key" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Future.js<>draw2d"
+    #{"Future" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Bookmark.js<>draw2d"
+    #{"Bookmark" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Firefox.js<>Firefox"
+    #{"Firefox" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/SplineConnectionRouter.js<>SplineConnectionRouter"
+    #{"push" "SplineConnectionRouter" "let" "function" "Connection"
+      "draw2d" "CubicSpline" "ArrayList"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onSetup"
+    #{"getFeature" "setSelected" "pathsToCoordinates"
+      "setSelectedCoordinates" "setActionableState"},
+    "../../../projects-example/draw-map-shape/shape/state/Start.js<>draw2d"
+    #{"Start" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Users.js<>draw2d"
+    #{"let" "Users" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/GitHub.js<>draw2d"
+    #{"let" "GitHub" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Label.js<>Label"
+    #{"else" "LabelEditor" "Book" "span" "let" "text" "JSON" "function"
+      "Label" "display" "Text" "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/shape/icon/Pensil.js<>draw2d"
+    #{"let" "Pensil" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowLeft.js<>ArrowLeft"
+    #{"ArrowLeft" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ScrewDriver.js<>ScrewDriver"
+    #{"ScrewDriver" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>pathsToCoordinates"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/composite/Jailhouse.js<>Jailhouse"
+    #{"CommandAssignFigure" "Jailhouse" "position" "let" "Figure"
+      "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/SettingsAlt.js<>SettingsAlt"
+    #{"function" "draw2d" "SettingsAlt"},
+    "../../../projects-example/draw-map-shape/shape/icon/Talke.js<>draw2d"
+    #{"Talke" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Windows.js<>draw2d"
+    #{"let" "Windows" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/SketchConnectionRouter.js<>SketchConnectionRouter"
+    #{"SketchConnectionRouter" "function" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/Debug.js<>window"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Volume3.js<>Volume3"
+    #{"function" "Volume3" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Gear.js<>draw2d"
+    #{"Gear" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Landing.js<>Landing"
+    #{"Landing" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cloud2.js<>draw2d"
+    #{"Cloud2" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Line.js<>Figure"
+    #{"else" "CommandMoveVertex" "onDrag" "push" "position" "let"
+      "CommandMoveVertices" "CommandDelete" "text" "debug" "JSON"
+      "intersection" "function" "onClick" "polygon" "hit" "draw2d"
+      "Color" "ArrayList" "CommandType"},
+    "../../../projects-example/draw-map-shape/shape/icon/Sencha.js<>draw2d"
+    #{"Sencha" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>context-menu-separator"
+    #{},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>newFeature"
+    #{"Polygon"},
+    "../../../projects-example/draw-map-shape/shape/icon/Sun.js<>Sun"
+    #{"function" "draw2d" "Sun"},
+    "../../../projects-example/draw-map-shape/shape/icon/Flickr.js<>Flickr"
+    #{"function" "Flickr" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/state/End.js<>End"
+    #{"CenterLocator" "TopLocator" "End" "ShortesPathConnectionAnchor"
+      "function" "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/shape/node/Fulcrum.js<>draw2d"
+    #{"Fulcrum" "Hub" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Package.js<>draw2d"
+    #{"Package" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/List.js<>List"
+    #{"function" "List" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Link.js<>Link"
+    #{"Link" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>push"
+    #{"else" "fireActionable" "push"},
+    "../../../projects-example/draw-map-shape/layout/locator/PolylineMidpointLocator.js<>PolylineMidpointLocator"
+    #{"else" "var" "PolylineMidpointLocator" "Figure" "function"
+      "Connection" "ManhattanMidpointLocator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Location.js<>draw2d"
+    #{"Location" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/mesh/MeshLayouter.js<>import"
+    #{},
+    "../../../projects-example/draw-map-shape/modes/mode_interface.js<>toDisplayFeatures"
+    #{"toDisplayFeatures"},
+    "../../../projects-example/draw-map-shape/shape/icon/Sticker.js<>draw2d"
+    #{"Sticker" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Run.js<>Run"
+    #{"Run" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Circle.js<>draw2d"
+    #{"Oval" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Dry.js<>Dry"
+    #{"function" "Dry" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Stop.js<>Stop"
+    #{"function" "draw2d" "Stop"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onMidpoint"
+    #{"startDragging" "fireUpdate"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onMouseMove"
+    #{"stopExtendedInteractions"},
+    "../../../projects-example/draw-map-shape/util/UUID.js<>draw2d"
+    #{"var" "draw2d" "UUID"},
+    "../../../projects-example/draw-map-shape/shape/icon/Quote.js<>draw2d"
+    #{"let" "draw2d" "Quote"},
+    "../../../projects-example/draw-map-shape/shape/icon/Noview.js<>Noview"
+    #{"function" "draw2d" "Noview"},
+    "../../../projects-example/draw-map-shape/command/CommandDelete.js<>draw2d"
+    #{"CommandStack" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/LinkedIn.js<>LinkedIn"
+    #{"LinkedIn" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandStackEvent.js<>draw2d"
+    #{"CommandStack"},
+    "../../../projects-example/draw-map-shape/shape/icon/StopSign.js<>draw2d"
+    #{"StopSign" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/DockBottom.js<>draw2d"
+    #{"let" "DockBottom" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Plugin.js<>Plugin"
+    #{"Plugin" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Package.js<>Package"
+    #{"Package" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/HangUp.js<>HangUp"
+    #{"HangUp" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Sencha.js<>Sencha"
+    #{"Sencha" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/Command.js<>Class"
+    #{"CommandMove" "CommandStack" "function" "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Flag.js<>draw2d"
+    #{"Flag" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/TopLocator.js<>draw2d"
+    #{"TopLocator" "let" "text" "Locator" "Label" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Globe.js<>Globe"
+    #{"Globe" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandReconnect.js<>CommandReconnect"
+    #{"CommandMoveVertex" "CommandMove" "CommandReconnect"
+      "CommandStack" "function" "Undo" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/Blob.js<>global"
+    #{},
+    "../../../projects-example/draw-map-shape/layout/locator/OutputPortLocator.js<>OutputPortLocator"
+    #{"let" "Figure" "function" "Locator" "OutputPortLocator" "draw2d"
+      "Node"},
+    "../../../projects-example/draw-map-shape/options.js<>defaultOptions"
+    #{},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onStop"
+    #{},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>isInstanceOf"
+    #{"Polygon"},
+    "../../../projects-example/draw-map-shape/shape/icon/Woman.js<>Woman"
+    #{"Woman" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/pert/Activity.js<>draw2d"
+    #{"Start" "Activity" "draw2d" "VerticalLayout" "pert"},
+    "../../../projects-example/draw-map-shape/shape/icon/Pallete.js<>Pallete"
+    #{"Pallete" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/VertexRouter.js<>VertexRouter"
+    #{"onDrag" "push" "let" "PolyLine" "function" "Connection"
+      "VertexRouter" "draw2d" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/icon/Glasses.js<>Glasses"
+    #{"function" "draw2d" "Glasses"},
+    "../../../projects-example/draw-map-shape/util/spline/Spline.js<>import"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Landscape2.js<>Landscape2"
+    #{"function" "Landscape2" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/diagram/Diagram.js<>Diagram"
+    #{"else" "function" "Diagram" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Pensil.js<>Pensil"
+    #{"function" "Pensil" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Attention.js<>draw2d"
+    #{"let" "Attention" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Line.js<>draw2d"
+    #{"function" "hit"},
+    "../../../projects-example/draw-map-shape/shape/icon/BioHazard.js<>draw2d"
+    #{"BioHazard" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/TShirt.js<>draw2d"
+    #{"let" "TShirt" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Db.js<>draw2d"
+    #{"let" "Db" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/SlideShare.js<>SlideShare"
+    #{"function" "draw2d" "SlideShare"},
+    "../../../projects-example/draw-map-shape/shape/icon/Merge.js<>draw2d"
+    #{"Merge" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/PolyLine.js<>draw2d"
+    #{"let" "PolyLine" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>setSelected"
+    #{"setSelected"},
+    "../../../projects-example/draw-map-shape/shape/icon/Skull.js<>Skull"
+    #{"Skull" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>startOnActiveFeature"
+    #{"doRender" "stopExtendedInteractions"},
+    "../../../projects-example/draw-map-shape/util/Blob.js<>unescape"
+    #{},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onMouseDown"
+    #{"startOnActiveFeature" "startBoxSelect"},
+    "../../../projects-example/draw-map-shape/shape/icon/Users.js<>Users"
+    #{"function" "Users" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/GlobeAlt2.js<>GlobeAlt2"
+    #{"function" "GlobeAlt2" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandMoveVertices.js<>CommandMoveVertices"
+    #{"CommandMove" "CommandStack" "CommandMoveVertices" "PolyLine"
+      "function" "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandAddVertex.js<>draw2d"
+    #{"polygon" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/layout/FlexGridLayout.js<>FlexGridLayout"
+    #{"else" "push" "let" "debug" "function" "FlexGridLayout" "draw2d"
+      "Layout"},
+    "../../../projects-example/draw-map-shape/shape/icon/Resize2.js<>draw2d"
+    #{"Resize2" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/anchor/CenterEdgeConnectionAnchor.js<>draw2d"
+    #{"ConnectionAnchor" "intersection" "CenterEdgeConnectionAnchor"
+      "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/GhostVertexResizeHandle.js<>GhostVertexResizeHandle"
+    #{"onDrag" "let" "CommandAddVertex" "function" "onClick" "draw2d"
+      "GhostVertexResizeHandle"},
+    "../../../projects-example/draw-map-shape/layout/anchor/ShortesPathConnectionAnchor.js<>draw2d"
+    #{"ConnectionAnchor" "intersection" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowLeft2.js<>draw2d"
+    #{"let" "ArrowLeft2" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Bug.js<>Bug"
+    #{"Bug" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Refresh.js<>draw2d"
+    #{"Refresh" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/diagram/Sparkline.js<>Sparkline"
+    #{"else" "let" "Sparkline" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js<>display"
+    #{"display"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>whileBoxSelect"
+    #{"updateUIClasses"},
+    "../../../projects-example/draw-map-shape/shape/composite/Jailhouse.js<>draw2d"
+    #{"Jailhouse" "StrongComposite" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Alarm.js<>Alarm"
+    #{"function" "Alarm" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandRotate.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onSetup"
+    #{"getFeature" "fireActionable" "setSelected"
+      "setActionableState"},
+    "../../../projects-example/draw-map-shape/shape/icon/Clip.js<>draw2d"
+    #{"let" "Clip" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>fireActionable"
+    #{"let" "getSelected" "setActionableState" "isInstanceOf"},
+    "../../../projects-example/draw-map-shape/shape/basic/Arc.js<>draw2d"
+    #{"Oval" "VectorFigure" "let" "Arc" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Exchange.js<>draw2d"
+    #{"let" "draw2d" "Exchange"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>getSelectedIds"
+    #{"getSelectedIds"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ruler.js<>Ruler"
+    #{"Ruler" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>startDragging"
+    #{},
+    "../../../projects-example/draw-map-shape/layout/locator/ParallelMidpointLocator.js<>draw2d"
+    #{"ConnectionLocator" "ParallelMidpointLocator" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/spline/CubicSpline.js<>CubicSpline"
+    #{"else" "var" "function" "draw2d" "CubicSpline" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/icon/StopWatch.js<>StopWatch"
+    #{"StopWatch" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Apps.js<>Apps"
+    #{"Apps" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/pert/Start.js<>draw2d"
+    #{"Start" "Activity" "draw2d" "VerticalLayout" "pert"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ccw.js<>Ccw"
+    #{"function" "Ccw" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Diagram.js<>draw2d"
+    #{"let" "Diagram" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Tag.js<>Tag"
+    #{"function" "Tag" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/SplineConnectionRouter.js<>draw2d"
+    #{"OpAmp" "SplineConnectionRouter" "let" "function" "Connection"
+      "draw2d" "ManhattanConnectionRouter" "ResistorVertical"},
+    "../../../projects-example/draw-map-shape/shape/icon/Undo.js<>draw2d"
+    #{"let" "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Pen.js<>draw2d"
+    #{"Pen" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Minus.js<>draw2d"
+    #{"Minus" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>clickOnVertex"
+    #{"updateUIClasses" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Plus.js<>draw2d"
+    #{"let" "Plus" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/OutputPortLocator.js<>draw2d"
+    #{"PortLocator" "Figure" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Fork.js<>Fork"
+    #{"function" "draw2d" "Fork"},
+    "../../../projects-example/draw-map-shape/command/CommandReplaceVertices.js<>CommandReplaceVertices"
+    #{"CommandMove" "CommandReplaceVertices" "PolyLine" "function"
+      "Undo" "draw2d" "Polygon" "ArrayList"},
+    "../../../projects-example/draw-map-shape/layout/anchor/CenterEdgeConnectionAnchor.js<>CenterEdgeConnectionAnchor"
+    #{"let" "Figure" "function" "CenterEdgeConnectionAnchor"
+      "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/diagram/Sparkline.js<>packages"
+    #{"push" "let" "Sparkline" "Diagram" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Landscape1.js<>draw2d"
+    #{"Landscape1" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Pallete.js<>draw2d"
+    #{"Pallete" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/CodeTalk.js<>CodeTalk"
+    #{"function" "CodeTalk" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Photo.js<>draw2d"
+    #{"Photo" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/Hub.js<>draw2d"
+    #{"Start" "Hub" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/object_to_mode.js<>modeObject"
+    #{"ModeInterface" "eventMapper" "push" "toDisplayFeatures"
+      "onSetup" "let" "function" "render" "modeObject" "ctx" "onStop"
+      "onCombineFeatures" "onTrash" "onUncombineFeatures"},
+    "../../../projects-example/draw-map-shape/shape/icon/Chrome.js<>draw2d"
+    #{"Chrome" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/DockBottom.js<>DockBottom"
+    #{"DockBottom" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandBoundingBox.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Exchange.js<>Exchange"
+    #{"function" "draw2d" "Exchange"},
+    "../../../projects-example/draw-map-shape/shape/layout/FlexGridLayout.js<>draw2d"
+    #{"let" "text" "function" "FlexGridLayout" "Label" "draw2d"
+      "Layout" "LabelInplaceEditor"},
+    "../../../projects-example/draw-map-shape/shape/icon/Bookmark.js<>Bookmark"
+    #{"Bookmark" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ForkAlt.js<>draw2d"
+    #{"ForkAlt" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/XYAbsPortLocator.js<>XYAbsPortLocator"
+    #{"XYAbsPortLocator" "Figure" "function" "Locator" "draw2d"
+      "Node"},
+    "../../../projects-example/draw-map-shape/shape/icon/BarChart.js<>draw2d"
+    #{"let" "BarChart" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Code.js<>Code"
+    #{"function" "draw2d" "Code"},
+    "../../../projects-example/draw-map-shape/shape/icon/Split.js<>Split"
+    #{"function" "draw2d" "Split"},
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js<>clickOnVertex"
+    #{"changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/FullCube.js<>FullCube"
+    #{"function" "draw2d" "FullCube"},
+    "../../../projects-example/draw-map-shape/shape/icon/PieChart.js<>draw2d"
+    #{"let" "draw2d" "PieChart"},
+    "../../../projects-example/draw-map-shape/shape/icon/Clock.js<>draw2d"
+    #{"let" "Clock" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/Node.js<>draw2d"
+    #{"Figure" "Connection" "draw2d" "Node"},
+    "../../../projects-example/draw-map-shape/shape/icon/CloudUp.js<>CloudUp"
+    #{"function" "CloudUp" "draw2d"},
+    "../../../projects-example/draw-map-shape/options.js<>options"
+    #{"else" "defaultOptions" "showControls" "hideControls" "let"
+      "addSources" "options"},
+    "../../../projects-example/draw-map-shape/shape/icon/Unlock.js<>draw2d"
+    #{"let" "draw2d" "Unlock"},
+    "../../../projects-example/draw-map-shape/shape/icon/LineChart.js<>LineChart"
+    #{"LineChart" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/Locator.js<>Locator"
+    #{"else" "let" "Figure" "function" "Locator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Skype.js<>draw2d"
+    #{"let" "draw2d" "Skype"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowRight.js<>ArrowRight"
+    #{"ArrowRight" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_point.js<>stopDrawingAndRemove"
+    #{"deleteFeature" "changeMode"},
+    "../../../projects-example/draw-map-shape/layout/connection/DirectRouter.js<>draw2d"
+    #{"Start" "End" "DirectRouter" "let" "ConnectionRouter" "function"
+      "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Key.js<>draw2d"
+    #{"Key" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandConnect.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/util/raphael_ext.js<>function"
+    #{"Raphael" "function" "display"},
+    "../../../projects-example/draw-map-shape/shape/icon/TwitterBird.js<>TwitterBird"
+    #{"TwitterBird" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Page2.js<>Page2"
+    #{"Page2" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Mail.js<>draw2d"
+    #{"let" "draw2d" "Mail"},
+    "../../../projects-example/draw-map-shape/shape/layout/TableLayout.js<>TableLayout"
+    #{"else" "TableLayout" "push" "let" "text" "function" "Label"
+      "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/Start.js<>draw2d"
+    #{"Start" "let" "draw2d" "Node"},
+    "../../../projects-example/draw-map-shape/shape/icon/Home.js<>Home"
+    #{"function" "draw2d" "Home"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>ModeInterface"
+    #{"JSON" "ctx" "options"},
+    "../../../projects-example/draw-map-shape/shape/icon/Twitter.js<>Twitter"
+    #{"function" "Twitter" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Star2Off.js<>Star2Off"
+    #{"Star2Off" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Power.js<>Power"
+    #{"function" "draw2d" "Power"},
+    "../../../projects-example/draw-map-shape/shape/layout/HorizontalLayout.js<>HorizontalLayout"
+    #{"else" "let" "function" "HorizontalLayout" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/ManhattanConnectionRouter.js<>draw2d"
+    #{"Start" "End" "let" "ConnectionRouter" "function" "Connection"
+      "draw2d" "ManhattanConnectionRouter"},
+    "../../../projects-example/draw-map-shape/shape/icon/Raphael.js<>draw2d"
+    #{"Raphael" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/widget/Slider.js<>Slider"
+    #{"else" "Slider" "push" "let" "function" "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/layout/locator/DraggableLocator.js<>draw2d"
+    #{"DraggableLocator" "Locator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Bubble.js<>draw2d"
+    #{"Bubble" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Export.js<>draw2d"
+    #{"Export" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Svg.js<>Svg"
+    #{"Svg" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Video.js<>Video"
+    #{"Video" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Connect.js<>Connect"
+    #{"function" "Connect" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Hammer.js<>Hammer"
+    #{"function" "Hammer" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandBoundingBox.js<>CommandBoundingBox"
+    #{"CommandResize" "CommandMove" "CommandStack" "Figure" "function"
+      "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Lamp.js<>draw2d"
+    #{"Lamp" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/User.js<>draw2d"
+    #{"User" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/note/PostIt.js<>note"
+    #{"note" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/LineEndResizeHandle.js<>LineEndResizeHandle"
+    #{"LineEndResizeHandle" "onDrag" "let" "Figure" "function"
+      "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/PortLocator.js<>PortLocator"
+    #{"Raphael" "PortLocator" "let" "function" "Locator" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandResize.js<>CommandResize"
+    #{"else" "CommandResize" "CommandMove" "CommandStack" "Figure"
+      "function" "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Disconnect.js<>draw2d"
+    #{"let" "Disconnect" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/state/End.js<>draw2d"
+    #{"End" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/state/Start.js<>Start"
+    #{"CenterLocator" "Start" "ShortesPathConnectionAnchor"
+      "BottomLocator" "let" "text" "function" "Label" "draw2d"
+      "Color"},
+    "../../../projects-example/draw-map-shape/util/SVGUtil.js<>polygon"
+    #{"var" "push"},
+    "../../../projects-example/draw-map-shape/command/CommandMoveConnection.js<>CommandMoveConnection"
+    #{"CommandMove" "CommandMoveConnection" "CommandStack" "let"
+      "function" "Undo" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/HangUp.js<>draw2d"
+    #{"HangUp" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandAdd.js<>draw2d"
+    #{"CommandStack" "draw2d"},
+    "../../../projects-example/draw-map-shape/events.js<>ctx"
+    #{"else" "push" "let" "function" "polygon" "changeMode" "render"
+      "api" "ctx" "featuresAt" "options"},
+    "../../../projects-example/draw-map-shape/shape/composite/Group.js<>draw2d"
+    #{"StrongComposite" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ForkAlt.js<>ForkAlt"
+    #{"ForkAlt" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ReflectH.js<>ReflectH"
+    #{"ReflectH" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/api.js<>api"
+    #{"else" "setSelected" "getSelectedIds" "let" "JSON" "function"
+      "changeMode" "render" "api" "ctx" "featuresAt" "featureTypes"
+      "getSelected"},
+    "../../../projects-example/draw-map-shape/shape/icon/Umbrella.js<>draw2d"
+    #{"let" "Umbrella" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Star2.js<>Star2"
+    #{"Star2" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Flickr.js<>draw2d"
+    #{"let" "Flickr" "draw2d"},
+    "../../../projects-example/draw-map-shape/setup.js<>ctx"
+    #{"else" "let" "function" "render" "ctx" "options"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>clearSelectedFeatures"
+    #{},
+    "../../../projects-example/draw-map-shape/layout/locator/DraggableLocator.js<>DraggableLocator"
+    #{"DraggableLocator" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/layout/Layout.js<>Layout"
+    #{"else" "let" "function" "draw2d" "Layout" "CommandType"},
+    "../../../projects-example/draw-map-shape/shape/layout/StackLayout.js<>draw2d"
+    #{"StackLayout" "draw2d" "Layout"},
+    "../../../projects-example/draw-map-shape/shape/icon/ZoomIn.js<>draw2d"
+    #{"let" "ZoomIn" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/JQuery.js<>draw2d"
+    #{"let" "JQuery" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Smile.js<>Smile"
+    #{"Smile" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/View.js<>View"
+    #{"View" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/Between.js<>draw2d"
+    #{"Between" "let" "draw2d" "Node"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowAlt.js<>ArrowAlt"
+    #{"function" "ArrowAlt" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_point.js<>onTap"
+    #{"updateUIClasses" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Folder.js<>draw2d"
+    #{"Folder" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Code.js<>draw2d"
+    #{"let" "draw2d" "Code"},
+    "../../../projects-example/draw-map-shape/layout/connection/MuteableManhattanConnectionRouter.js<>MuteableManhattanConnectionRouter"
+    #{"else" "MuteableManhattanConnectionRouter" "push" "let"
+      "function" "List" "Connection" "draw2d" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/icon/People.js<>People"
+    #{"People" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Opera.js<>draw2d"
+    #{"let" "draw2d" "Opera"},
+    "../../../projects-example/draw-map-shape/shape/icon/Import.js<>Import"
+    #{"function" "Import" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/PortLocator.js<>draw2d"
+    #{"position" "Locator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/CodeTalk.js<>draw2d"
+    #{"let" "CodeTalk" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Paper.js<>Paper"
+    #{"Paper" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Info.js<>Info"
+    #{"Info" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Book.js<>draw2d"
+    #{"Book" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/End.js<>End"
+    #{"End" "function" "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/shape/icon/Jigsaw.js<>Jigsaw"
+    #{"Jigsaw" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Line.js<>hit"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onDrag"
+    #{"dragMove" "whileBoxSelect"},
+    "../../../projects-example/draw-map-shape/shape/icon/Plus.js<>Plus"
+    #{"Plus" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowLeftAlt.js<>draw2d"
+    #{"ArrowLeftAlt" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Vim.js<>Vim"
+    #{"function" "draw2d" "Vim"},
+    "../../../projects-example/draw-map-shape/shape/analog/OpAmp.js<>OpAmp"
+    #{"OpAmp" "PortLocator" "let" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/MicMute.js<>MicMute"
+    #{"MicMute" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>getFeature"
+    #{},
+    "../../../projects-example/draw-map-shape/layout/locator/ConnectionLocator.js<>draw2d"
+    #{"Figure" "Locator" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Rain.js<>Rain"
+    #{"function" "draw2d" "Rain"},
+    "../../../projects-example/draw-map-shape/shape/diagram/Pie.js<>draw2d"
+    #{"let" "Diagram" "draw2d" "Pie"},
+    "../../../projects-example/draw-map-shape/shape/icon/StopWatch.js<>draw2d"
+    #{"StopWatch" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/NoMagnet.js<>draw2d"
+    #{"let" "NoMagnet" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Mail.js<>Mail"
+    #{"function" "draw2d" "Mail"},
+    "../../../projects-example/draw-map-shape/shape/icon/Search.js<>draw2d"
+    #{"let" "draw2d" "Search"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onTap"
+    #{"clickOnVertex" "clickOnFeature" "clickAnywhere"},
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js<>onSetup"
+    #{"updateUIClasses" "addFeature" "clearSelectedFeatures"
+      "activateUIButton" "polygon" "newFeature" "setActionableState"},
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js<>onStop"
+    #{"else" "updateUIClasses" "getFeature" "deleteFeature"
+      "activateUIButton" "polygon" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Flag.js<>Flag"
+    #{"Flag" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>isSelected"
+    #{"isSelected"},
+    "../../../projects-example/draw-map-shape/shape/icon/GitHubAlt.js<>GitHubAlt"
+    #{"function" "GitHubAlt" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Printer.js<>Printer"
+    #{"Printer" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Picture.js<>draw2d"
+    #{"Picture" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Acw.js<>Acw"
+    #{"function" "Acw" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/RightLocator.js<>RightLocator"
+    #{"else" "var" "Figure" "function" "RightLocator" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/MazeConnectionRouter.js<>MazeConnectionRouter"
+    #{"else" "push" "MazeConnectionRouter" "let" "function"
+      "Connection" "draw2d" "CubicSpline" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ff.js<>Ff"
+    #{"Ff" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/InputPortLocator.js<>InputPortLocator"
+    #{"let" "Figure" "InputPortLocator" "function" "Locator" "draw2d"
+      "Node"},
+    "../../../projects-example/draw-map-shape/shape/icon/Woman.js<>draw2d"
+    #{"Woman" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>stopDragging"
+    #{},
+    "../../../projects-example/draw-map-shape/layout/anchor/ConnectionAnchor.js<>ConnectionAnchor"
+    #{"ConnectionAnchor" "Figure" "function" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/Between.js<>Between"
+    #{"Between" "function" "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/shape/icon/Opera.js<>Opera"
+    #{"function" "draw2d" "Opera"},
+    "../../../projects-example/draw-map-shape/layout/anchor/FanConnectionAnchor.js<>draw2d"
+    #{"FanConnectionAnchor" "DirectRouter" "ConnectionAnchor"
+      "intersection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/InkScape.js<>draw2d"
+    #{"InkScape" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/LeftLocator.js<>draw2d"
+    #{"LeftLocator" "Start" "let" "text" "Locator" "Label" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandDeleteGroup.js<>CommandDeleteGroup"
+    #{"CommandDeleteGroup" "CommandMove" "let" "function" "Undo"
+      "CommandUngroup" "draw2d" "Group" "CommandCollection"
+      "CommandType"},
+    "../../../projects-example/draw-map-shape/shape/icon/Noview.js<>draw2d"
+    #{"let" "draw2d" "Noview"},
+    "../../../projects-example/draw-map-shape/shape/icon/Question2.js<>Question2"
+    #{"function" "draw2d" "Question2"},
+    "../../../projects-example/draw-map-shape/shape/icon/Expand.js<>draw2d"
+    #{"Expand" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/StarOff.js<>draw2d"
+    #{"StarOff" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowAlt.js<>draw2d"
+    #{"let" "ArrowAlt" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js<>clickAnywhere"
+    #{"updateUIClasses" "polygon" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/CommandLine.js<>draw2d"
+    #{"CommandLine" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Skype.js<>Skype"
+    #{"function" "draw2d" "Skype"},
+    "../../../projects-example/draw-map-shape/shape/icon/Man.js<>draw2d"
+    #{"Man" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/DockRight.js<>DockRight"
+    #{"DockRight" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Refresh.js<>Refresh"
+    #{"Refresh" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Customer.js<>draw2d"
+    #{"Customer" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>featuresAt"
+    #{"featuresAt"},
+    "../../../projects-example/draw-map-shape/shape/icon/Pen.js<>Pen"
+    #{"Pen" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandResize.js<>draw2d"
+    #{"CommandStack" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_point.js<>display"
+    #{"display"},
+    "../../../projects-example/draw-map-shape/layout/connection/ConnectionRouter.js<>ConnectionRouter"
+    #{"else" "onDrag" "push" "let" "ConnectionRouter" "JSON" "PolyLine"
+      "function" "Connection" "draw2d" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/icon/Home.js<>draw2d"
+    #{"let" "draw2d" "Home"},
+    "../../../projects-example/draw-map-shape/shape/icon/Gear2.js<>Gear2"
+    #{"function" "Gear2" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/anchor/ChopboxConnectionAnchor.js<>draw2d"
+    #{"ConnectionAnchor" "intersection" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Diamond.js<>draw2d"
+    #{"VectorFigure" "let" "Figure" "draw2d" "Diamond"},
+    "../../../projects-example/draw-map-shape/shape/arrow/CalligrapherArrowLeft.js<>CalligrapherArrowLeft"
+    #{"function" "draw2d" "CalligrapherArrowLeft"},
+    "../../../projects-example/draw-map-shape/shape/layout/Layout.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Star2.js<>draw2d"
+    #{"Star2" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Question.js<>Question"
+    #{"Question" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Magnet.js<>draw2d"
+    #{"Magnet" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Wrench3.js<>Wrench3"
+    #{"function" "draw2d" "Wrench3"},
+    "../../../projects-example/draw-map-shape/shape/basic/Polygon.js<>Polygon"
+    #{"else" "CommandMoveVertex" "push" "position" "let" "function"
+      "polygon" "draw2d" "Polygon" "ArrayList" "CommandType"},
+    "../../../projects-example/draw-map-shape/shape/icon/Tag.js<>draw2d"
+    #{"let" "Tag" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Trash.js<>Trash"
+    #{"Trash" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/SlideShare.js<>draw2d"
+    #{"let" "draw2d" "SlideShare"},
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js<>onKeyUp"
+    #{"else" "deleteFeature" "polygon" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Lock.js<>draw2d"
+    #{"let" "draw2d" "Lock"},
+    "../../../projects-example/draw-map-shape/shape/icon/Lamp_alt.js<>draw2d"
+    #{"let" "Lamp_alt" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandReconnect.js<>draw2d"
+    #{"Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Pc.js<>draw2d"
+    #{"let" "draw2d" "Pc"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>span"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Cart.js<>Cart"
+    #{"Cart" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Download.js<>Download"
+    #{"Download" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>position"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/composite/WeakComposite.js<>draw2d"
+    #{"draw2d" "Composite" "WeakComposite"},
+    "../../../projects-example/draw-map-shape/shape/icon/Lab.js<>draw2d"
+    #{"let" "Lab" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Quote.js<>Quote"
+    #{"function" "draw2d" "Quote"},
+    "../../../projects-example/draw-map-shape/shape/icon/Pc.js<>Pc"
+    #{"function" "draw2d" "Pc"},
+    "../../../projects-example/draw-map-shape/shape/icon/Linux.js<>Linux"
+    #{"Linux" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Rain.js<>draw2d"
+    #{"let" "draw2d" "Rain"},
+    "../../../projects-example/draw-map-shape/shape/icon/History.js<>draw2d"
+    #{"History" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/People.js<>draw2d"
+    #{"let" "People" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Detour.js<>draw2d"
+    #{"let" "Detour" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Firefox.js<>draw2d"
+    #{"let" "Firefox" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/analog/VoltageSupplyHorizontal.js<>VoltageSupplyHorizontal"
+    #{"VoltageSupplyHorizontal" "PortLocator" "let" "function"
+      "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ScrewDriver.js<>draw2d"
+    #{"ScrewDriver" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Connect.js<>draw2d"
+    #{"let" "Connect" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/NodeJs.js<>NodeJs"
+    #{"function" "NodeJs" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/LineChart.js<>draw2d"
+    #{"LineChart" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/CenterLocator.js<>CenterLocator"
+    #{"else" "CenterLocator" "let" "Figure" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/DockLeft.js<>DockLeft"
+    #{"function" "DockLeft" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandUngroup.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Usb.js<>Usb"
+    #{"Usb" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Video.js<>draw2d"
+    #{"Video" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/No.js<>draw2d"
+    #{"let" "draw2d" "No"},
+    "../../../projects-example/draw-map-shape/shape/icon/Skull.js<>draw2d"
+    #{"Skull" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Vim.js<>draw2d"
+    #{"let" "draw2d" "Vim"},
+    "../../../projects-example/draw-map-shape/shape/basic/LineEndResizeHandle.js<>draw2d"
+    #{"LineResizeHandle" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Volume3.js<>draw2d"
+    #{"let" "Volume3" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/analog/VoltageSupplyHorizontal.js<>draw2d"
+    #{"VoltageSupplyHorizontal" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ie9.js<>draw2d"
+    #{"Ie9" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Thunder.js<>draw2d"
+    #{"Thunder" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Photo.js<>Photo"
+    #{"Photo" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/arrow/CalligrapherArrowDownLeft.js<>draw2d"
+    #{"let" "CalligrapherArrowDownLeft" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Feed.js<>draw2d"
+    #{"Feed" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Disconnect.js<>Disconnect"
+    #{"function" "Disconnect" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Wrench.js<>draw2d"
+    #{"let" "draw2d" "Wrench"},
+    "../../../projects-example/draw-map-shape/command/CommandDeleteGroup.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/WheelChair.js<>draw2d"
+    #{"WheelChair" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/pert/Start.js<>pert"
+    #{"else" "LabelEditor" "Start" "End" "let" "text" "function"
+      "HorizontalLayout" "Label" "display" "draw2d" "Color"
+      "LabelInplaceEditor" "No" "pert"},
+    "../../../projects-example/draw-map-shape/shape/icon/Fave.js<>draw2d"
+    #{"Fave" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/XYRelPortLocator.js<>XYRelPortLocator"
+    #{"else" "let" "Figure" "function" "Locator" "draw2d"
+      "XYRelPortLocator"},
+    "../../../projects-example/draw-map-shape/shape/widget/Slider.js<>draw2d"
+    #{"Slider" "Widget" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Rw.js<>Rw"
+    #{"Rw" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Check.js<>Check"
+    #{"Check" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Font.js<>draw2d"
+    #{"let" "Font" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>setSelectedCoordinates"
+    #{"setSelectedCoordinates"},
+    "../../../projects-example/draw-map-shape/shape/icon/Star3Off.js<>draw2d"
+    #{"Star3Off" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Star3.js<>draw2d"
+    #{"let" "draw2d" "Star3"},
+    "../../../projects-example/draw-map-shape/shape/icon/Aumade.js<>draw2d"
+    #{"Aumade" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/History.js<>History"
+    #{"History" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowRight2.js<>ArrowRight2"
+    #{"ArrowRight2" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Lock.js<>Lock"
+    #{"function" "draw2d" "Lock"},
+    "../../../projects-example/draw-map-shape/shape/icon/Help.js<>draw2d"
+    #{"let" "Help" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/VerticalBus.js<>VerticalBus"
+    #{"let" "function" "Hub" "VerticalBus" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/SmartDraggableLocator.js<>draw2d"
+    #{"DraggableLocator" "Locator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Hail.js<>draw2d"
+    #{"Hail" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/View.js<>draw2d"
+    #{"View" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandMoveLine.js<>CommandMoveLine"
+    #{"CommandMove" "CommandStack" "let" "function" "Undo"
+      "CommandMoveLine" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Clip.js<>Clip"
+    #{"function" "Clip" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Link.js<>draw2d"
+    #{"Link" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>disabled"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/basic/Rectangle.js<>draw2d"
+    #{"VectorFigure" "let" "Figure" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Customer.js<>Customer"
+    #{"Customer" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Phone.js<>draw2d"
+    #{"let" "Phone" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/No.js<>No"
+    #{"function" "draw2d" "No"},
+    "../../../projects-example/draw-map-shape/shape/icon/Contract.js<>Contract"
+    #{"Contract" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/SketchConnectionRouter.js<>draw2d"
+    #{"OpAmp" "SketchConnectionRouter" "MazeConnectionRouter" "let"
+      "function" "Connection" "draw2d" "ResistorVertical"},
+    "../../../projects-example/draw-map-shape/shape/icon/Plane.js<>draw2d"
+    #{"let" "Plane" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cube.js<>draw2d"
+    #{"let" "Cube" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Temp.js<>draw2d"
+    #{"let" "Temp" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/mesh/ExplodeLayouter.js<>ExplodeLayouter"
+    #{"else" "ProposedMeshChange" "var" "Figure" "function"
+      "ExplodeLayouter" "draw2d" "ArrayList"},
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js<>onKeyUp"
+    #{"else" "deleteFeature" "changeMode"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>updateUIClasses"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Rotate.js<>Rotate"
+    #{"function" "Rotate" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/composite/Raft.js<>draw2d"
+    #{"Raft" "let" "draw2d" "WeakComposite"},
+    "../../../projects-example/draw-map-shape/shape/icon/NoMagnet.js<>NoMagnet"
+    #{"function" "NoMagnet" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/NewWindow.js<>NewWindow"
+    #{"NewWindow" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Lab.js<>Lab"
+    #{"function" "Lab" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/analog/VoltageSupplyVertical.js<>VoltageSupplyVertical"
+    #{"PortLocator" "let" "VoltageSupplyVertical" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ccw.js<>draw2d"
+    #{"let" "Ccw" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>clickActiveFeature"
+    #{"clearSelectedCoordinates"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>clearSelectedCoordinates"
+    #{"clearSelectedCoordinates"},
+    "../../../projects-example/draw-map-shape/shape/icon/Question.js<>draw2d"
+    #{"Info" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/List.js<>draw2d"
+    #{"let" "List" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Mic.js<>Mic"
+    #{"Mic" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/LineResizeHandle.js<>LineResizeHandle"
+    #{"else" "LineResizeHandle" "onDrag" "position" "let" "function"
+      "Connection" "draw2d" "Color" "CommandType"},
+    "../../../projects-example/draw-map-shape/shape/icon/GRaphael.js<>GRaphael"
+    #{"GRaphael" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>context-menu-list"
+    #{"display"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>clickNoTarget"
+    #{"changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ppt.js<>draw2d"
+    #{"let" "draw2d" "Ppt"},
+    "../../../projects-example/draw-map-shape/ui/LabelInplaceEditor.js<>draw2d"
+    #{"LabelEditor" "var" "text" "function" "Label" "draw2d"
+      "LabelInplaceEditor"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ipad.js<>draw2d"
+    #{"Ipad" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/mesh/ExplodeLayouter.js<>import"
+    #{"Connection" "draw2d" "MeshLayouter"},
+    "../../../projects-example/draw-map-shape/shape/icon/GlobeAlt.js<>draw2d"
+    #{"GlobeAlt" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/DockTop.js<>DockTop"
+    #{"function" "draw2d" "DockTop"},
+    "../../../projects-example/draw-map-shape/util/JSONUtil.js<>JSON"
+    #{"else" "push" "let" "JSON" "function"},
+    "../../../projects-example/draw-map-shape/shape/icon/Magnet.js<>Magnet"
+    #{"Magnet" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/LeftLocator.js<>LeftLocator"
+    #{"else" "LeftLocator" "let" "Figure" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ipad.js<>Ipad"
+    #{"Ipad" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandMoveVertex.js<>draw2d"
+    #{"polygon" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onTouchStart"
+    #{"onVertex" "onFeature" "onMidpoint"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>addFeature"
+    #{},
+    "../../../projects-example/draw-map-shape/layout/anchor/ShortesPathConnectionAnchor.js<>ShortesPathConnectionAnchor"
+    #{"Oval" "ShortesPathConnectionAnchor" "let" "Figure" "function"
+      "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Aumade.js<>Aumade"
+    #{"Aumade" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ZoomOut.js<>draw2d"
+    #{"let" "draw2d" "ZoomOut"},
+    "../../../projects-example/draw-map-shape/shape/basic/Line.js<>intersection"
+    #{"let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Raphael.js<>Raphael"
+    #{"Raphael" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandCollection.js<>CommandCollection"
+    #{"CommandMove" "CommandStack" "let" "function" "Undo" "draw2d"
+      "CommandCollection" "CommandConnect" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/icon/Landscape2.js<>draw2d"
+    #{"let" "Landscape2" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Warning.js<>Warning"
+    #{"Warning" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cube.js<>Cube"
+    #{"Cube" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/options.js<>showControls"
+    #{"polygon"},
+    "../../../projects-example/draw-map-shape/util/spline/CubicSpline.js<>draw2d"
+    #{"Spline" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Magic.js<>Magic"
+    #{"Magic" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/TakeOff.js<>draw2d"
+    #{"let" "TakeOff" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Volume0.js<>Volume0"
+    #{"Volume0" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/BioHazard.js<>BioHazard"
+    #{"BioHazard" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/DirectRouter.js<>DirectRouter"
+    #{"DirectRouter" "push" "let" "function" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Icon.js<>draw2d"
+    #{"SetFigure" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cloudy.js<>draw2d"
+    #{"Cloudy" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Bubble.js<>Bubble"
+    #{"Bubble" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>fireUpdate"
+    #{"getSelected"},
+    "../../../projects-example/draw-map-shape/shape/icon/DockRight.js<>draw2d"
+    #{"DockRight" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandRemoveVertex.js<>CommandRemoveVertex"
+    #{"CommandRemoveVertex" "CommandMove" "PolyLine" "function" "Undo"
+      "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/End.js<>draw2d"
+    #{"End" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/FullCube.js<>draw2d"
+    #{"let" "draw2d" "FullCube"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cross.js<>draw2d"
+    #{"Cross" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>stopExtendedInteractions"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/analog/ResistorBridge.js<>ResistorBridge"
+    #{"PortLocator" "let" "ResistorBridge" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Oval.js<>draw2d"
+    #{"Oval" "VectorFigure" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Minus.js<>Minus"
+    #{"Minus" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/ConnectionLocator.js<>ConnectionLocator"
+    #{"ConnectionLocator" "function" "Locator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/HorizontalBus.js<>HorizontalBus"
+    #{"HorizontalBus" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandAssignFigure.js<>CommandAssignFigure"
+    #{"else" "CommandAssignFigure" "CommandMove" "CommandStack" "let"
+      "Figure" "function" "Undo" "draw2d" "Node" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/analog/ResistorVertical.js<>draw2d"
+    #{"let" "draw2d" "ResistorVertical"},
+    "../../../projects-example/draw-map-shape/shape/composite/Raft.js<>Raft"
+    #{"onDrag" "Raft" "position" "let" "Figure" "function" "Connection"
+      "draw2d" "Composite" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/icon/Power.js<>draw2d"
+    #{"let" "draw2d" "Power"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>text"
+    #{"display"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>dragMove"
+    #{"getSelected"},
+    "../../../projects-example/draw-map-shape/shape/diagram/Pie.js<>Pie"
+    #{"else" "push" "let" "function" "draw2d" "Pie"},
+    "../../../projects-example/draw-map-shape/shape/analog/ResistorBridge.js<>draw2d"
+    #{"let" "ResistorBridge" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/state/Connection.js<>draw2d"
+    #{"Start" "End" "let" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/Debug.js<>debug"
+    #{"window" "var" "push" "debug" "function"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cloudy.js<>Cloudy"
+    #{"Cloudy" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Location.js<>Location"
+    #{"Location" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Circle.js<>Oval"
+    #{"let" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Crop.js<>Crop"
+    #{"Crop" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onFeature"
+    #{"else" "startDragging" "stopDragging"},
+    "../../../projects-example/draw-map-shape/shape/layout/StackLayout.js<>StackLayout"
+    #{"StackLayout" "XYAbsPortLocator" "let" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/WheelChair.js<>WheelChair"
+    #{"WheelChair" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Download.js<>draw2d"
+    #{"let" "Download" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/index.js<>export"
+    #{},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onTouchEnd"
+    #{"fireUpdate" "stopDragging"},
+    "../../../projects-example/draw-map-shape/shape/icon/Alarm.js<>draw2d"
+    #{"let" "Alarm" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Bug.js<>draw2d"
+    #{"let" "Bug" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Volume2.js<>Volume2"
+    #{"Volume2" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Employee.js<>Employee"
+    #{"function" "Employee" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Rw.js<>draw2d"
+    #{"Rw" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/HorizontalBus.js<>draw2d"
+    #{"HorizontalBus" "let" "text" "Hub" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/CloudUp.js<>draw2d"
+    #{"let" "CloudUp" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Gear.js<>Gear"
+    #{"Gear" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Split.js<>draw2d"
+    #{"let" "draw2d" "Split"},
+    "../../../projects-example/draw-map-shape/shape/icon/Merge.js<>Merge"
+    #{"Merge" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Db.js<>Db"
+    #{"function" "Db" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onTrash"
+    #{"fireActionable" "fireUpdate" "deleteFeature"
+      "clearSelectedCoordinates" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Icon.js<>SetFigure"
+    #{"else" "push" "let" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowUp.js<>draw2d"
+    #{"ArrowUp" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/Blob.js<>var"
+    #{"else" "window" "var" "push" "function" "FileSaver"},
+    "../../../projects-example/draw-map-shape/shape/icon/Dollar.js<>draw2d"
+    #{"Dollar" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Safari.js<>Safari"
+    #{"Safari" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ReflectV.js<>ReflectV"
+    #{"ReflectV" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandAttr.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>context-menu-submenu"
+    #{"position"},
+    "../../../projects-example/draw-map-shape/shape/icon/Star3.js<>Star3"
+    #{"function" "draw2d" "Star3"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowRight.js<>draw2d"
+    #{"ArrowRight" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/ManhattanConnectionRouter.js<>ManhattanConnectionRouter"
+    #{"else" "let" "function" "Connection" "draw2d"
+      "ManhattanConnectionRouter"},
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js<>onTap"
+    #{"clickOnVertex" "clickAnywhere"},
+    "../../../projects-example/draw-map-shape/shape/icon/Windows.js<>Windows"
+    #{"Windows" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Twitter.js<>draw2d"
+    #{"let" "Twitter" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/CircuitConnectionRouter.js<>CircuitConnectionRouter"
+    #{"else" "CircuitConnectionRouter" "push" "span" "let" "function"
+      "Connection" "hit" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onCombineFeatures"
+    #{"else" "addFeature" "fireActionable" "setSelected"
+      "deleteFeature" "getSelectedIds" "push" "let" "newFeature"
+      "getSelected"},
+    "../../../projects-example/draw-map-shape/shape/icon/ReflectH.js<>draw2d"
+    #{"ReflectH" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Shuffle.js<>draw2d"
+    #{"let" "Shuffle" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandAssignFigure.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cloud2.js<>Cloud2"
+    #{"Cloud2" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/Blob.js<>FileSaver"
+    #{"FileSaver"},
+    "../../../projects-example/draw-map-shape/shape/icon/Start.js<>draw2d"
+    #{"Start" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/DockTop.js<>draw2d"
+    #{"let" "draw2d" "DockTop"},
+    "../../../projects-example/draw-map-shape/layout/anchor/ConnectionAnchor.js<>draw2d"
+    #{"Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>clickInactive"
+    #{"changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Smile2.js<>Smile2"
+    #{"Smile2" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Globe.js<>draw2d"
+    #{"Globe" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Svg.js<>draw2d"
+    #{"Svg" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/MazeConnectionRouter.js<>let"
+    #{"ConnectionRouter" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Jigsaw.js<>draw2d"
+    #{"Jigsaw" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/GlobeAlt2.js<>draw2d"
+    #{"let" "GlobeAlt2" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/CommandLine.js<>CommandLine"
+    #{"CommandLine" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ReflectV.js<>draw2d"
+    #{"ReflectV" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/VertexResizeHandle.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandMove.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Future.js<>Future"
+    #{"Future" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js<>onMouseMove"
+    #{"updateUIClasses"},
+    "../../../projects-example/draw-map-shape/shape/icon/Volume1.js<>draw2d"
+    #{"Volume1" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandDelete.js<>CommandDelete"
+    #{"else" "CommandMove" "let" "Figure" "CommandDelete" "function"
+      "Undo" "Connection" "draw2d" "Node" "ArrayList"},
+    "../../../projects-example/draw-map-shape/command/CommandMove.js<>CommandMove"
+    #{"else" "CommandMove" "position" "CommandStack" "Figure"
+      "function" "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/ArrayList.js<>ArrayList"
+    #{"else" "var" "push" "position" "let" "function" "draw2d"
+      "ArrayList"},
+    "../../../projects-example/draw-map-shape/layout/locator/TopLocator.js<>TopLocator"
+    #{"else" "TopLocator" "let" "Figure" "function" "Connection"
+      "ManhattanMidpointLocator" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/UUID.js<>UUID"
+    #{"let" "function" "UUID"},
+    "../../../projects-example/draw-map-shape/shape/icon/Mic.js<>draw2d"
+    #{"Mic" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Printer.js<>draw2d"
+    #{"Printer" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/options.js<>hideControls"
+    #{"polygon"},
+    "../../../projects-example/draw-map-shape/shape/icon/NewWindow.js<>draw2d"
+    #{"NewWindow" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Lamp.js<>Lamp"
+    #{"Lamp" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_point.js<>onKeyUp"
+    #{"stopDrawingAndRemove"},
+    "../../../projects-example/draw-map-shape/layout/locator/ParallelMidpointLocator.js<>ParallelMidpointLocator"
+    #{"else" "let" "Figure" "function" "ParallelMidpointLocator"
+      "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/composite/Composite.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Diagram.js<>Diagram"
+    #{"function" "Diagram" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/PolylineMidpointLocator.js<>draw2d"
+    #{"PolylineMidpointLocator" "ManhattanMidpointLocator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Page.js<>Page"
+    #{"Page" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Man.js<>Man"
+    #{"Man" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Parent.js<>Parent"
+    #{"Parent" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/ui/LabelInplaceEditor.js<>LabelInplaceEditor"
+    #{"CommandAttr" "var" "position" "text" "function" "Label" "draw2d"
+      "LabelInplaceEditor"},
+    "../../../projects-example/draw-map-shape/shape/flowchart/Document.js<>flowchart"
+    #{"flowchart" "let" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onUncombineFeatures"
+    #{"addFeature" "fireActionable" "deleteFeature" "push" "let"
+      "select" "getSelected" "isInstanceOf"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface.js<>ModeInterface"
+    #{"toDisplayFeatures" "onSetup" "render" "display"},
+    "../../../projects-example/draw-map-shape/shape/icon/Page2.js<>draw2d"
+    #{"Page2" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Text.js<>draw2d"
+    #{"let" "text" "Label" "Text" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandStackEventListener.js<>draw2d"
+    #{"CommandStack"},
+    "../../../projects-example/draw-map-shape/shape/basic/Text.js<>Text"
+    #{"else" "push" "let" "text" "function" "Text" "SetFigure" "draw2d"
+      "Node"},
+    "../../../projects-example/draw-map-shape/shape/icon/Glasses.js<>draw2d"
+    #{"let" "draw2d" "Glasses"},
+    "../../../projects-example/draw-map-shape/command/CommandMoveVertices.js<>draw2d"
+    #{"polygon" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/GlobeAlt.js<>GlobeAlt"
+    #{"GlobeAlt" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>getSelected"
+    #{"getSelected"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>context-menu-accesskey"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Rotate.js<>draw2d"
+    #{"let" "Rotate" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/CenterLocator.js<>draw2d"
+    #{"CenterLocator" "let" "text" "Locator" "Label" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandAdd.js<>CommandAdd"
+    #{"CommandMove" "Figure" "CommandAdd" "function" "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/arrow/CalligrapherArrowLeft.js<>draw2d"
+    #{"let" "draw2d" "CalligrapherArrowLeft"},
+    "../../../projects-example/draw-map-shape/shape/icon/Calendar.js<>draw2d"
+    #{"let" "Calendar" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/ArrayList.js<>draw2d"
+    #{"ArrayList"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onTap"
+    #{"clickActiveFeature" "clickInactive" "clickNoTarget"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowDown.js<>draw2d"
+    #{"ArrowDown" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Unlock.js<>Unlock"
+    #{"function" "draw2d" "Unlock"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ruler.js<>draw2d"
+    #{"Ruler" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/ManhattanMidpointLocator.js<>ManhattanMidpointLocator"
+    #{"let" "Figure" "function" "Connection" "ManhattanMidpointLocator"
+      "draw2d"},
+    "../../../projects-example/draw-map-shape/util/Blob.js<>js" #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Icons.js<>Icons"
+    #{"Icons" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Check.js<>draw2d"
+    #{"Check" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/GitHubAlt.js<>draw2d"
+    #{"let" "GitHubAlt" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Rectangle.js<>VectorFigure"
+    #{"let" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/anchor/FanConnectionAnchor.js<>FanConnectionAnchor"
+    #{"else" "FanConnectionAnchor" "position" "let" "Figure" "function"
+      "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Clock.js<>Clock"
+    #{"Clock" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/spline/CatmullRomSpline.js<>draw2d"
+    #{"draw2d" "CubicSpline"},
+    "../../../projects-example/draw-map-shape/shape/icon/Trash.js<>draw2d"
+    #{"Trash" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/LineStartResizeHandle.js<>draw2d"
+    #{"LineResizeHandle" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandStack.js<>CommandStack"
+    #{"else" "CommandStackEvent" "push" "CommandStackEventListener"
+      "CommandStack" "let" "function" "Undo" "draw2d"
+      "CommandCollection" "ArrayList"},
+    "../../../projects-example/draw-map-shape/layout/connection/FanConnectionRouter.js<>FanConnectionRouter"
+    #{"else" "position" "let" "function" "Connection"
+      "FanConnectionRouter" "draw2d" "Layout" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/flowchart/Document.js<>draw2d"
+    #{"VectorFigure" "flowchart" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowLeftAlt.js<>ArrowLeftAlt"
+    #{"ArrowLeftAlt" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/GitHub.js<>GitHub"
+    #{"function" "GitHub" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/state/State.js<>draw2d"
+    #{"Start" "let" "Connection" "State" "draw2d" "VerticalLayout"},
+    "../../../projects-example/draw-map-shape/shape/composite/Group.js<>Group"
+    #{"else" "CommandDeleteGroup" "position" "let" "Figure" "function"
+      "draw2d" "Group" "CommandType"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>startBoxSelect"
+    #{"stopExtendedInteractions"},
+    "../../../projects-example/draw-map-shape/shape/icon/HammerAndScrewDriver.js<>draw2d"
+    #{"let" "draw2d" "HammerAndScrewDriver"},
+    "../../../projects-example/draw-map-shape/shape/icon/Volume1.js<>Volume1"
+    #{"Volume1" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/ManhattanBridgedConnectionRouter.js<>draw2d"
+    #{"Connection" "draw2d" "ManhattanConnectionRouter"},
+    "../../../projects-example/draw-map-shape/shape/icon/Search.js<>Search"
+    #{"function" "draw2d" "Search"},
+    "../../../projects-example/draw-map-shape/layout/locator/InputPortLocator.js<>draw2d"
+    #{"PortLocator" "Figure" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Palm.js<>draw2d"
+    #{"Palm" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/InkScape.js<>InkScape"
+    #{"InkScape" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ff.js<>draw2d"
+    #{"Ff" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>dragVertex"
+    #{"let"},
+    "../../../projects-example/draw-map-shape/shape/icon/Detour.js<>Detour"
+    #{"function" "Detour" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ie9.js<>Ie9"
+    #{"Ie9" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/InteractiveManhattanConnectionRouter.js<>draw2d"
+    #{"InteractiveManhattanConnectionRouter" "Start" "End" "let"
+      "select" "function" "Connection" "draw2d"
+      "ManhattanConnectionRouter"},
+    "../../../projects-example/draw-map-shape/command/CommandType.js<>CommandType"
+    #{"function" "draw2d" "CommandType"},
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js<>clickOnVertex"
+    #{"polygon" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Undo.js<>Undo"
+    #{"function" "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/pert/Activity.js<>Activity"
+    #{"else" "LabelEditor" "Start" "End" "Activity" "let" "text"
+      "function" "HorizontalLayout" "Label" "display" "draw2d" "Color"
+      "LabelInplaceEditor" "No" "pert"},
+    "../../../projects-example/draw-map-shape/shape/icon/Resize2.js<>Resize2"
+    #{"Resize2" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Contract.js<>draw2d"
+    #{"Contract" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/ui/LabelEditor.js<>LabelEditor"
+    #{"else" "LabelEditor" "CommandAttr" "let" "text" "function"
+      "Label" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/MicMute.js<>draw2d"
+    #{"MicMute" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandConnect.js<>CommandConnect"
+    #{"CommandStack" "let" "function" "Undo" "Connection" "draw2d"
+      "CommandConnect"},
+    "../../../projects-example/draw-map-shape/shape/icon/Run.js<>draw2d"
+    #{"Run" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Sun.js<>draw2d"
+    #{"let" "draw2d" "Sun"},
+    "../../../projects-example/draw-map-shape/layout/connection/VertexRouter.js<>draw2d"
+    #{"Start" "End" "let" "ConnectionRouter" "function" "Connection"
+      "VertexRouter" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Wrench.js<>Wrench"
+    #{"function" "draw2d" "Wrench"},
+    "../../../projects-example/draw-map-shape/shape/icon/Employee.js<>draw2d"
+    #{"let" "Employee" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Thunder.js<>Thunder"
+    #{"Thunder" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Picture.js<>Picture"
+    #{"Picture" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Apps.js<>draw2d"
+    #{"let" "Apps" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onMouseUp"
+    #{"else" "updateUIClasses" "fireUpdate" "doRender" "select"
+      "stopExtendedInteractions" "isSelected" "getUniqueIds"
+      "featuresAt"},
+    "../../../projects-example/draw-map-shape/shape/icon/NodeJs.js<>draw2d"
+    #{"let" "NodeJs" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Anonymous.js<>draw2d"
+    #{"let" "Anonymous" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/Start.js<>Start"
+    #{"Start" "function" "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/layout/locator/Locator.js<>draw2d"
+    #{},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>fireActionable"
+    #{"setActionableState"},
+    "../../../projects-example/draw-map-shape/shape/icon/Apple.js<>Apple"
+    #{"Apple" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ie.js<>Ie"
+    #{"Ie" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ethernet.js<>draw2d"
+    #{"let" "Ethernet" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Import.js<>draw2d"
+    #{"let" "Import" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Books.js<>draw2d"
+    #{"let" "Books" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Wrench3.js<>draw2d"
+    #{"let" "draw2d" "Wrench3"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowLeft2.js<>ArrowLeft2"
+    #{"ArrowLeft2" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/object_to_mode.js<>eventMapper"
+    #{"onTap" "onMouseOut" "onDrag" "onMouseMove" "onKeyUp"
+      "onMouseDown" "onClick" "onTouchEnd" "onMouseUp" "onTouchStart"},
+    "../../../projects-example/draw-map-shape/shape/basic/VertexResizeHandle.js<>VertexResizeHandle"
+    #{"VertexResizeHandle" "onDrag" "CommandRemoveVertex" "let"
+      "function" "draw2d" "CommandCollection" "CommandType"},
+    "../../../projects-example/draw-map-shape/shape/icon/Snow.js<>draw2d"
+    #{"Snow" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/mesh/ProposedMeshChange.js<>import"
+    #{},
+    "../../../projects-example/draw-map-shape/layout/anchor/ChopboxConnectionAnchor.js<>ChopboxConnectionAnchor"
+    #{"let" "Figure" "ChopboxConnectionAnchor" "function" "Connection"
+      "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>doRender"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/node/Hub.js<>Hub"
+    #{"else" "CenterLocator" "ShortesPathConnectionAnchor" "let"
+      "Figure" "text" "function" "Hub" "Label" "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/shape/icon/ZoomOut.js<>ZoomOut"
+    #{"function" "draw2d" "ZoomOut"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>clickOnFeature"
+    #{"else" "updateUIClasses" "getFeature" "setSelected"
+      "getSelectedIds" "doRender" "select" "stopExtendedInteractions"
+      "deselect" "changeMode" "isSelected"},
+    "../../../projects-example/draw-map-shape/util/spline/Spline.js<>Spline"
+    #{"Spline" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandRemoveVertex.js<>draw2d"
+    #{"polygon" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>select"
+    #{"select"},
+    "../../../projects-example/draw-map-shape/shape/icon/Question2.js<>draw2d"
+    #{"let" "draw2d" "Question2"},
+    "../../../projects-example/draw-map-shape/shape/icon/CloudDown.js<>draw2d"
+    #{"let" "CloudDown" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Fork.js<>draw2d"
+    #{"let" "draw2d" "Fork"},
+    "../../../projects-example/draw-map-shape/ui/LabelEditor.js<>draw2d"
+    #{"LabelEditor" "let" "text" "function" "Label" "draw2d"
+      "LabelInplaceEditor"},
+    "../../../projects-example/draw-map-shape/shape/analog/OpAmp.js<>draw2d"
+    #{"OpAmp" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/RightLocator.js<>draw2d"
+    #{"var" "End" "text" "Locator" "Label" "RightLocator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/note/PostIt.js<>draw2d"
+    #{"note" "let" "text" "Label" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Crop.js<>draw2d"
+    #{"Crop" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>icons"
+    #{"icons" "context-menu-item"},
+    "../../../projects-example/draw-map-shape/util/Base64.js<>Base64"
+    #{"var" "Base64" "push" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onMouseMove"
+    #{"else" "updateUIClasses" "onVertex" "stopDragging"},
+    "../../../projects-example/draw-map-shape/shape/node/VerticalBus.js<>draw2d"
+    #{"let" "text" "Hub" "VerticalBus" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/composite/StrongComposite.js<>draw2d"
+    #{"StrongComposite" "draw2d" "Composite"},
+    "../../../projects-example/draw-map-shape/layout/connection/RubberbandRouter.js<>RubberbandRouter"
+    #{"push" "let" "RubberbandRouter" "function" "Connection"
+      "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Fave.js<>Fave"
+    #{"Fave" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/analog/ResistorVertical.js<>ResistorVertical"
+    #{"push" "PortLocator" "let" "function" "draw2d"
+      "ResistorVertical"},
+    "../../../projects-example/draw-map-shape/shape/composite/StrongComposite.js<>StrongComposite"
+    #{"Check" "let" "Figure" "function" "StrongComposite" "draw2d"
+      "ArrayList"},
+    "../../../projects-example/draw-map-shape/options.js<>addSources"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/basic/Label.js<>draw2d"
+    #{"let" "text" "Label" "SetFigure" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cart.js<>draw2d"
+    #{"Cart" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/arrow/CalligrapherArrowDownLeft.js<>CalligrapherArrowDownLeft"
+    #{"CalligrapherArrowDownLeft" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Talke.js<>Talke"
+    #{"Talke" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Landing.js<>draw2d"
+    #{"Landing" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowRight2.js<>draw2d"
+    #{"ArrowRight2" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/MuteableManhattanConnectionRouter.js<>draw2d"
+    #{"draw2d" "ManhattanConnectionRouter"},
+    "../../../projects-example/draw-map-shape/command/CommandRotate.js<>CommandRotate"
+    #{"CommandRotate" "CommandMove" "CommandStack" "let" "Figure"
+      "function" "Undo" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/RubberbandRouter.js<>draw2d"
+    #{"Start" "End" "let" "ConnectionRouter" "RubberbandRouter"
+      "function" "Connection" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js<>onTrash"
+    #{"deleteFeature" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/StarOff.js<>StarOff"
+    #{"StarOff" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/state/Connection.js<>Connection"
+    #{"text" "function" "Label" "Connection" "ParallelMidpointLocator"
+      "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/layout/connection/ManhattanBridgedConnectionRouter.js<>ManhattanBridgedConnectionRouter"
+    #{"ManhattanBridgedConnectionRouter" "push" "let" "function"
+      "Connection" "hit" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/XYRelPortLocator.js<>draw2d"
+    #{"PortLocator" "position" "let" "draw2d" "XYRelPortLocator"},
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js<>onSetup"
+    #{"else" "updateUIClasses" "addFeature" "getFeature"
+      "clearSelectedFeatures" "activateUIButton" "let" "newFeature"
+      "setActionableState"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onMouseOut"
+    #{"fireUpdate"},
+    "../../../projects-example/draw-map-shape/api.js<>featureTypes"
+    #{"Polygon"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onVertex"
+    #{"else" "startDragging" "push" "pathsToCoordinates"
+      "setSelectedCoordinates"},
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js<>onTrash"
+    #{"deleteFeature" "polygon" "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/node/Fulcrum.js<>Fulcrum"
+    #{"Fulcrum" "ConnectionAnchor" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Notebook.js<>draw2d"
+    #{"let" "draw2d" "Notebook"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ppt.js<>Ppt"
+    #{"function" "draw2d" "Ppt"},
+    "../../../projects-example/draw-map-shape/shape/icon/IMac.js<>draw2d"
+    #{"IMac" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Page.js<>draw2d"
+    #{"let" "Page" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Image.js<>draw2d"
+    #{"draw2d" "Image" "Node"},
+    "../../../projects-example/draw-map-shape/shape/icon/PieChart.js<>PieChart"
+    #{"function" "draw2d" "PieChart"},
+    "../../../projects-example/draw-map-shape/shape/icon/Help.js<>Help"
+    #{"function" "Help" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandStack.js<>draw2d"
+    #{"CommandStack"},
+    "../../../projects-example/draw-map-shape/shape/icon/TwitterBird.js<>draw2d"
+    #{"let" "TwitterBird" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onTouchStart"
+    #{"startOnActiveFeature"},
+    "../../../projects-example/draw-map-shape/shape/node/End.js<>draw2d"
+    #{"End" "let" "draw2d" "Node"},
+    "../../../projects-example/draw-map-shape/command/CommandAddVertex.js<>CommandAddVertex"
+    #{"CommandMove" "PolyLine" "CommandAddVertex" "function" "Undo"
+      "draw2d" "Polygon"},
+    "../../../projects-example/draw-map-shape/shape/icon/Acw.js<>draw2d"
+    #{"let" "Acw" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Plugin.js<>draw2d"
+    #{"Plugin" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Talkq.js<>draw2d"
+    #{"let" "Talkq" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>activateUIButton"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Star3Off.js<>Star3Off"
+    #{"Star3Off" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Info.js<>draw2d"
+    #{"Info" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/TShirt.js<>TShirt"
+    #{"function" "TShirt" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ZoomIn.js<>ZoomIn"
+    #{"function" "ZoomIn" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Oval.js<>Oval"
+    #{"else" "Oval" "let" "function" "draw2d" "ArrayList"},
+    "../../../projects-example/draw-map-shape/layout/locator/ManhattanMidpointLocator.js<>draw2d"
+    #{"ConnectionLocator" "Start" "End" "let" "text" "Label"
+      "Connection" "ManhattanMidpointLocator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Magic.js<>draw2d"
+    #{"Magic" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/SmartDraggableLocator.js<>SmartDraggableLocator"
+    #{"SmartDraggableLocator" "let" "Figure" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Chrome.js<>Chrome"
+    #{"Chrome" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/BarChart.js<>BarChart"
+    #{"function" "BarChart" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Wrench2.js<>draw2d"
+    #{"let" "draw2d" "Wrench2"},
+    "../../../projects-example/draw-map-shape/shape/icon/Usb.js<>draw2d"
+    #{"Usb" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/analog/VoltageSupplyVertical.js<>draw2d"
+    #{"let" "VoltageSupplyVertical" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Cross.js<>Cross"
+    #{"Cross" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js<>onTap"
+    #{"clickOnVertex" "clickAnywhere"},
+    "../../../projects-example/draw-map-shape/shape/icon/Shuffle.js<>Shuffle"
+    #{"function" "Shuffle" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onStop"
+    #{"clearSelectedCoordinates"},
+    "../../../projects-example/draw-map-shape/shape/basic/LineResizeHandle.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Hail.js<>Hail"
+    #{"Hail" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>display"
+    #{"fireActionable" "isSelected" "display"},
+    "../../../projects-example/draw-map-shape/shape/icon/LinkedIn.js<>draw2d"
+    #{"LinkedIn" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js<>display"
+    #{"polygon" "display"},
+    "../../../projects-example/draw-map-shape/shape/icon/Book.js<>Book"
+    #{"Book" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/diagram/Diagram.js<>draw2d"
+    #{"SetFigure" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Talkq.js<>Talkq"
+    #{"function" "Talkq" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Wrench2.js<>Wrench2"
+    #{"function" "draw2d" "Wrench2"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>onClick"
+    #{"clickActiveFeature" "stopDragging" "clickInactive"
+      "clickNoTarget"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ethernet.js<>Ethernet"
+    #{"function" "Ethernet" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Safari.js<>draw2d"
+    #{"Safari" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>hover"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Calendar.js<>Calendar"
+    #{"function" "Calendar" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Feed.js<>Feed"
+    #{"Feed" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Attention.js<>Attention"
+    #{"function" "Attention" "draw2d"},
+    "../../../projects-example/draw-map-shape/css/contextmenu.css<>textarea"
+    #{"text"},
+    "../../../projects-example/draw-map-shape/shape/icon/Notebook.js<>Notebook"
+    #{"function" "draw2d" "Notebook"},
+    "../../../projects-example/draw-map-shape/shape/icon/Picker.js<>draw2d"
+    #{"Picker" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/GRaphael.js<>draw2d"
+    #{"GRaphael" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Landscape1.js<>Landscape1"
+    #{"Landscape1" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Stop.js<>draw2d"
+    #{"let" "draw2d" "Stop"},
+    "../../../projects-example/draw-map-shape/shape/icon/Temp.js<>Temp"
+    #{"function" "Temp" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/XYAbsPortLocator.js<>draw2d"
+    #{"var" "PortLocator" "position" "XYAbsPortLocator" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Diamond.js<>Diamond"
+    #{"let" "function" "draw2d" "Diamond"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>clickAnywhere"
+    #{"clearSelectedFeatures" "getSelectedIds" "doRender"
+      "stopExtendedInteractions"},
+    "../../../projects-example/draw-map-shape/shape/icon/Dollar.js<>Dollar"
+    #{"Dollar" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Picker.js<>Picker"
+    #{"Picker" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Volume2.js<>draw2d"
+    #{"let" "Volume2" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/spline/BezierSpline.js<>import"
+    #{"Spline" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandStackEventListener.js<>CommandStackEventListener"
+    #{"CommandStackEvent" "CommandStackEventListener" "function"
+      "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/layout/TableLayout.js<>draw2d"
+    #{"TableLayout" "let" "text" "Label" "draw2d" "Layout"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>fireUpdate"
+    #{"getSelected"},
+    "../../../projects-example/draw-map-shape/shape/basic/Image.js<>Image"
+    #{"function" "display" "draw2d" "Image"},
+    "../../../projects-example/draw-map-shape/shape/icon/Books.js<>Books"
+    #{"function" "Books" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Chat.js<>Chat"
+    #{"Chat" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/TakeOff.js<>TakeOff"
+    #{"function" "TakeOff" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Chat.js<>draw2d"
+    #{"Chat" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/mesh/ProposedMeshChange.js<>ProposedMeshChange"
+    #{"ProposedMeshChange" "Figure" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/locator/BottomLocator.js<>draw2d"
+    #{"BottomLocator" "let" "text" "Locator" "Label" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js<>onStop"
+    #{"else" "getFeature" "deleteFeature" "activateUIButton"
+      "changeMode"},
+    "../../../projects-example/draw-map-shape/shape/icon/Smile.js<>draw2d"
+    #{"Smile" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandGroup.js<>CommandGroup"
+    #{"else" "CommandMove" "let" "function" "Undo" "CommandGroup"
+      "draw2d" "Group" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/icon/Lamp_alt.js<>Lamp_alt"
+    #{"function" "Lamp_alt" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/User.js<>User"
+    #{"User" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/layout/HorizontalLayout.js<>draw2d"
+    #{"let" "text" "HorizontalLayout" "Label" "draw2d" "Layout"},
+    "../../../projects-example/draw-map-shape/shape/icon/Sticker.js<>Sticker"
+    #{"Sticker" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandUngroup.js<>CommandUngroup"
+    #{"else" "CommandMove" "let" "function" "Undo" "CommandUngroup"
+      "draw2d" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/composite/Composite.js<>Composite"
+    #{"Figure" "function" "draw2d" "Composite"},
+    "../../../projects-example/draw-map-shape/command/CommandReplaceVertices.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/util/Blob.js<>else"
+    #{"else" "var" "push" "function" "unescape" "options"},
+    "../../../projects-example/draw-map-shape/util/Color.js<>draw2d"
+    #{"var" "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js<>onMouseMove"
+    #{"updateUIClasses" "polygon"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onTrash"
+    #{"fireActionable" "deleteFeature" "getSelectedIds"},
+    "../../../projects-example/draw-map-shape/shape/icon/IMac.js<>IMac"
+    #{"IMac" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Parent.js<>draw2d"
+    #{"Parent" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Locked.js<>Locked"
+    #{"Locked" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/Color.js<>Color"
+    #{"else" "let" "function" "Text" "draw2d" "Color"},
+    "../../../projects-example/draw-map-shape/shape/icon/DockLeft.js<>draw2d"
+    #{"let" "DockLeft" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Locked.js<>draw2d"
+    #{"Locked" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Phone.js<>Phone"
+    #{"function" "Phone" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Font.js<>Font"
+    #{"Font" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/InteractiveManhattanConnectionRouter.js<>InteractiveManhattanConnectionRouter"
+    #{"else" "InteractiveManhattanConnectionRouter" "onDrag" "push"
+      "let" "PolyLine" "function" "Connection" "draw2d" "ArrayList"},
+    "../../../projects-example/draw-map-shape/shape/basic/PolyLine.js<>PolyLine"
+    #{"else" "CommandMoveVertex" "DirectRouter" "position" "let"
+      "CommandMoveVertices" "ConnectionRouter" "CommandDelete" "debug"
+      "PolyLine" "function" "hit" "VertexRouter" "draw2d" "ArrayList"
+      "CommandType"},
+    "../../../projects-example/draw-map-shape/shape/icon/HammerAndScrewDriver.js<>HammerAndScrewDriver"
+    #{"function" "draw2d" "HammerAndScrewDriver"},
+    "../../../projects-example/draw-map-shape/layout/connection/CircuitConnectionRouter.js<>draw2d"
+    #{"OpAmp" "CircuitConnectionRouter" "let" "function" "Connection"
+      "draw2d" "ManhattanConnectionRouter" "ResistorVertical"},
+    "../../../projects-example/draw-map-shape/util/spline/BezierSpline.js<>BezierSpline"
+    #{"else" "var" "function" "BezierSpline" "draw2d" "ArrayList"},
+    "../../../projects-example/draw-map-shape/command/Command.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>changeMode"
+    #{"changeMode"},
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js<>setActionableState"
+    #{},
+    "../../../projects-example/draw-map-shape/shape/icon/Apple.js<>draw2d"
+    #{"let" "Apple" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandType.js<>draw2d"
+    #{"Figure" "Code"},
+    "../../../projects-example/draw-map-shape/shape/icon/Folder.js<>Folder"
+    #{"Folder" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Star.js<>draw2d"
+    #{"Star" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandGroup.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/basic/Polygon.js<>draw2d"
+    #{"VectorFigure" "let" "draw2d" "Polygon"},
+    "../../../projects-example/draw-map-shape/shape/icon/Umbrella.js<>Umbrella"
+    #{"function" "Umbrella" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/spline/CatmullRomSpline.js<>CatmullRomSpline"
+    #{"else" "CatmullRomSpline" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/End.js<>End"
+    #{"End" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/simple_select.js<>onMouseOut"
+    #{"fireUpdate"},
+    "../../../projects-example/draw-map-shape/command/CommandMoveLine.js<>draw2d"
+    #{"draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Linux.js<>draw2d"
+    #{"let" "Linux" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Snow.js<>Snow"
+    #{"Snow" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Start.js<>Start"
+    #{"Start" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandCollection.js<>draw2d"
+    #{"CommandStack" "draw2d" "CommandCollection"},
+    "../../../projects-example/draw-map-shape/shape/icon/Iphone.js<>Iphone"
+    #{"Iphone" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/widget/Widget.js<>draw2d"
+    #{"SetFigure" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/layout/VerticalLayout.js<>draw2d"
+    #{"let" "text" "Label" "draw2d" "VerticalLayout" "Layout"},
+    "../../../projects-example/draw-map-shape/shape/icon/Ie.js<>draw2d"
+    #{"let" "Ie" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Export.js<>Export"
+    #{"Export" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Paper.js<>draw2d"
+    #{"Paper" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/util/extend.js<>let"
+    #{"else" "let" "function"},
+    "../../../projects-example/draw-map-shape/shape/icon/Star2Off.js<>draw2d"
+    #{"Star2Off" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/layout/connection/FanConnectionRouter.js<>draw2d"
+    #{"Start" "End" "DirectRouter" "let" "function" "Connection"
+      "FanConnectionRouter" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/node/Node.js<>Node"
+    #{"else" "CommandRotate" "push" "position" "let" "Figure" "JSON"
+      "function" "Locator" "draw2d" "Node" "ArrayList" "CommandType"},
+    "../../../projects-example/draw-map-shape/shape/dimetric/Rectangle.js<>dimetric"
+    #{"let" "dimetric" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/modes/draw_point.js<>onSetup"
+    #{"updateUIClasses" "addFeature" "clearSelectedFeatures"
+      "activateUIButton" "newFeature" "setActionableState"},
+    "../../../projects-example/draw-map-shape/shape/layout/VerticalLayout.js<>VerticalLayout"
+    #{"let" "function" "draw2d" "VerticalLayout"},
+    "../../../projects-example/draw-map-shape/modes/direct_select.js<>dragFeature"
+    #{"getSelected"},
+    "../../../projects-example/draw-map-shape/shape/icon/Icons.js<>draw2d"
+    #{"Icons" "let" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Anonymous.js<>Anonymous"
+    #{"function" "Anonymous" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowUp.js<>ArrowUp"
+    #{"ArrowUp" "function" "draw2d"},
+    "../../../projects-example/draw-map-shape/command/CommandMoveVertex.js<>CommandMoveVertex"
+    #{"CommandMoveVertex" "CommandMove" "CommandStack" "PolyLine"
+      "function" "Undo" "polygon" "draw2d"},
+    "../../../projects-example/draw-map-shape/shape/icon/Volume0.js<>draw2d"
+    #{"Volume0" "let" "draw2d"}}},
+  :ui
+  {:closed-dirs
+   {"../../../projects-example/draw-map-shape/shape/widget/Widget.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/layout/VerticalLayout.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Check.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Feed.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Shuffle.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/connection/CircuitConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/LeftLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Settings.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/spline/BezierSpline.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/Label.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/GitHub.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/anchor/FanConnectionAnchor.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/ParallelMidpointLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/composite/StrongComposite.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowLeft2.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/CenterLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/composite/Composite.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/NoMagnet.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/DraggableLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/LineStartResizeHandle.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/StopSign.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/raphael_ext.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Merge.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/Image.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Locked.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Smile2.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/Locator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Exchange.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandReconnect.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Sun.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Skull.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Apps.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Raphael.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/Command.js" true,
+    "../../../projects-example/draw-map-shape/shape/state/Start.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/NodeJs.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Aumade.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/View.js" true,
+    "../../../projects-example/draw-map-shape/layout/locator/ManhattanMidpointLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/JSONUtil.js" true,
+    "../../../projects-example/draw-map-shape/layout/connection/RubberbandRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/anchor/ConnectionAnchor.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/No.js" true,
+    "../../../projects-example/draw-map-shape/util/spline/CatmullRomSpline.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Home.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Opera.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/layout" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Cloud2.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandStackEventListener.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/spline" true,
+    "../../../projects-example/draw-map-shape/shape/icon/ReflectH.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/widget" true,
+    "../../../projects-example/draw-map-shape/shape/icon/TShirt.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/BioHazard.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/End.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Sencha.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/diagram/Diagram.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/connection/FanConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Minus.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes/mode_interface_accessors.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Bookmark.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Help.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/People.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/extend.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Download.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/note/PostIt.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Star3Off.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/SVGUtil.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Pen.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Chat.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Package.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Phone.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Picker.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/Polyfill.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/PieChart.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Wrench.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandGroup.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Clip.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Cloudy.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Chrome.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Ie9.js" true,
+    "../../../projects-example/draw-map-shape/command/CommandReplaceVertices.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes/draw_polygon.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Alarm.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Acw.js" true,
+    "../../../projects-example/draw-map-shape/command/CommandStackEvent.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Wrench3.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/Circle.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Dollar.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Hammer.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Snow.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/TwitterBird.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Cloud.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandAdd.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/state/Connection.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Run.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/History.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Mic.js" true,
+    "../../../projects-example/draw-map-shape/shape/note" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Volume0.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Iphone.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/Rectangle.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Gear2.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Books.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes/object_to_mode.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Start.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/StarOff.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/anchor/ShortesPathConnectionAnchor.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Import.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/SmartDraggableLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Magic.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Anonymous.js"
+    true,
+    "../../../projects-example/draw-map-shape/command" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Refresh.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Mail.js" true,
+    "../../../projects-example" true,
+    "../../../projects-example/draw-map-shape/shape/icon/GitHubAlt.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Page2.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Paper.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/UUID.js" true,
+    "../../../projects-example/draw-map-shape/layout" true,
+    "../../../projects-example/draw-map-shape/shape/icon/User.js" true,
+    "../../../projects-example/draw-map-shape/shape/basic/LineEndResizeHandle.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ZoomOut.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/composite/Group.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/Diamond.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Clock.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/connection/ManhattanBridgedConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Ccw.js" true,
+    "../../../projects-example/draw-map-shape/command/CommandMoveLine.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Lab.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Plus.js" true,
+    "../../../projects-example/draw-map-shape/events.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/GlobeAlt2.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Trash.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandMoveVertex.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Resize2.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Rotate.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandMoveVertices.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandMove.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/layout/HorizontalLayout.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Jigsaw.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Video.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Link.js" true,
+    "../../../projects-example/draw-map-shape/layout/locator/ConnectionLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/Arc.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Unlock.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/LinkedIn.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Talke.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandResize.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowUp.js"
+    true,
+    "../../.." true,
+    "../../../projects-example/draw-map-shape/layout/anchor/CenterEdgeConnectionAnchor.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/layout/TableLayout.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/XYAbsPortLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Usb.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Wrench2.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Db.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Cart.js" true,
+    "../../../projects-example/draw-map-shape/command/CommandAddVertex.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Apple.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape" true,
+    "../../../projects-example/draw-map-shape/shape/basic/Line.js"
+    true,
+    "../../../projects-example/draw-map-shape/util" true,
+    "../../../projects-example/draw-map-shape/layout/connection/DirectRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowDown.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Linux.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/arrow" true,
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowLeftAlt.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Globe.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/layout/FlexGridLayout.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/CloudDown.js"
+    true,
+    "../../../projects-example/draw-map-shape/css/contextmenu.css"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Photo.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Safari.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/LineChart.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Rw.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Search.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/anchor" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Undo.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Fork.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Magnet.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/DockLeft.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/InkScape.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Quote.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/LineResizeHandle.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/node/Node.js" true,
+    "../../../projects-example/draw-map-shape/command/CommandAttr.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowRight2.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandAssignFigure.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Folder.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/CodeTalk.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/CommandLine.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes/direct_select.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Volume2.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/state/End.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Split.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Skype.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Hail.js" true,
+    "../../../projects-example/draw-map-shape/command/CommandDeleteGroup.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ScrewDriver.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/analog/VoltageSupplyVertical.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes/mode_interface.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/pert" true,
+    "../../../projects-example/draw-map-shape/shape/icon/DockRight.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/state/State.js"
+    true,
+    "../../../projects-example/draw-map-shape/options.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Sticker.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Landscape1.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/connection/VertexRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes/index.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Pc.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Diagram.js"
+    true,
+    "../../../projects-example/draw-map-shape/css" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Flickr.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/PolyLine.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Star2.js"
+    true,
+    "../../../projects-example/draw-map-shape/render.js" true,
+    "../../../projects-example/draw-map-shape/shape/node/Start.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/Base64.js" true,
+    "../../../projects-example/draw-map-shape/shape/basic/GhostVertexResizeHandle.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/analog/ResistorBridge.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/CloudUp.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Bubble.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Star.js" true,
+    "../../../projects-example/draw-map-shape/layout/locator/PolylineMidpointLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/ui/LabelInplaceEditor.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Bug.js" true,
+    "../../../projects-example/draw-map-shape/layout/locator/PortLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/JQuery.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/Blob.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/ForkAlt.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Volume1.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/connection/MazeConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Customer.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowRight.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Temp.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/StopWatch.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/connection/ManhattanConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/Polygon.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/pert/Start.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Pensil.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Pallete.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Glasses.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Detour.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/OutputPortLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes" true,
+    "../../../projects-example/draw-map-shape/shape/icon" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Printer.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandRemoveVertex.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Cross.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Lamp.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Volume3.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Stop.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Landing.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/mesh" true,
+    "../../../projects-example/draw-map-shape/layout/locator/InputPortLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandRotate.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Vim.js" true,
+    "../../../projects-example/draw-map-shape/layout/connection/MuteableManhattanConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Code.js" true,
+    "../../../projects-example/draw-map-shape/util/Debug.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Svg.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Plane.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandCollection.js"
+    true,
+    "../../../projects-example/draw-map-shape/ignored-by-git.js" true,
+    "../../../projects-example/draw-map-shape/layout/locator/TopLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Lamp_alt.js"
+    true,
+    "../../../projects-example/draw-map-shape/ui" true,
+    "../../../projects-example/draw-map-shape/shape/layout/Layout.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/NewWindow.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/BarChart.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Ethernet.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes/simple_select.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Info.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Thunder.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Export.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/BottomLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Warning.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Flag.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Ie.js" true,
+    "../../../projects-example/draw-map-shape/layout/mesh/ProposedMeshChange.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/connection/InteractiveManhattanConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/layout/StackLayout.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandStack.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/IMac.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Gear.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Smile.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/List.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Ff.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Icon.js" true,
+    "../../../projects-example/draw-map-shape/shape/diagram/Sparkline.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Lock.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Users.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/node/End.js" true,
+    "../../../projects-example/draw-map-shape/shape/node/HorizontalBus.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Disconnect.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Calendar.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Man.js" true,
+    "../../../projects-example/draw-map-shape/shape/dimetric" true,
+    "../../../projects-example/draw-map-shape/shape/basic/VertexResizeHandle.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Location.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandConnect.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/composite/WeakComposite.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/node" true,
+    "../../../projects-example/draw-map-shape/shape/icon/TakeOff.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandMoveConnection.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/XYRelPortLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/connection/SketchConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/connection" true,
+    "../../../projects-example/draw-map-shape/shape/icon/FullCube.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/analog/VoltageSupplyHorizontal.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/DockTop.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Page.js" true,
+    "../../../projects-example/draw-map-shape/shape/state" true,
+    "../../../projects-example/draw-map-shape/shape/icon/DockBottom.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Woman.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/WheelChair.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowAlt.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator/RightLocator.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/node/Fulcrum.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes/draw_point.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Question.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Landscape2.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Ipad.js" true,
+    "../../../projects-example/draw-map-shape/layout/mesh/MeshLayouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Star3.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Question2.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Expand.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Power.js"
+    true,
+    "../../../projects-example/draw-map-shape/api.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/SlideShare.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Noview.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/diagram/Pie.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Book.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Crop.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/ReflectV.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Future.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/GRaphael.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandBoundingBox.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/node/VerticalBus.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Cube.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Rain.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Ppt.js" true,
+    "../../../projects-example/draw-map-shape/shape/analog/OpAmp.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Firefox.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Picture.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Notebook.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Tag.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/GlobeAlt.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/node/Hub.js" true,
+    "../../../projects-example/draw-map-shape/layout/connection/SplineConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/diagram" true,
+    "../../../projects-example/draw-map-shape/shape/node/Between.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/locator" true,
+    "../../../projects-example/draw-map-shape/command/CommandUngroup.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Attention.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Talkq.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/SettingsAlt.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/pert/Activity.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Star2Off.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/flowchart/Document.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/dimetric/Rectangle.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/spline/Spline.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Umbrella.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Icons.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/analog" true,
+    "../../../projects-example/draw-map-shape/setup.js" true,
+    "../../../projects-example/draw-map-shape/shape/basic/Oval.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Font.js" true,
+    "../../../projects-example/draw-map-shape/shape/arrow/CalligrapherArrowLeft.js"
+    true,
+    "../.." true,
+    "../../../projects-example/draw-map-shape/shape/widget/Slider.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ArrowLeft.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/ZoomIn.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/basic/Text.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/flowchart" true,
+    "../../../projects-example/draw-map-shape/layout/anchor/ChopboxConnectionAnchor.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Key.js" true,
+    "../../../projects-example/draw-map-shape/shape/analog/ResistorVertical.js"
+    true,
+    "../../../projects-example/draw-map-shape" true,
+    "../../../projects-example/draw-map-shape/shape/icon/Twitter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Ruler.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/MicMute.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/spline/CubicSpline.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Contract.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Connect.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/composite" true,
+    "../../../projects-example/draw-map-shape/shape/composite/Raft.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandDelete.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Fave.js" true,
+    "../../../projects-example/draw-map-shape/shape/composite/Jailhouse.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Windows.js"
+    true,
+    "../../../projects-example/draw-map-shape/command/CommandType.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/HangUp.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Parent.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/arrow/CalligrapherArrowDownLeft.js"
+    true,
+    "../../../projects-example/draw-map-shape/layout/mesh/ExplodeLayouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Dry.js" true,
+    "../../../projects-example/draw-map-shape/shape/icon/HammerAndScrewDriver.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Palm.js" true,
+    "../../../projects-example/draw-map-shape/util/ArrayList.js" true,
+    "../../../projects-example/draw-map-shape/ui/LabelEditor.js" true,
+    "../../../projects-example/draw-map-shape/layout/connection/ConnectionRouter.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Plugin.js"
+    true,
+    "../../../projects-example/draw-map-shape/modes/draw_line_string.js"
+    true,
+    "../../../projects-example/draw-map-shape/shape/icon/Employee.js"
+    true,
+    "../../../projects-example/draw-map-shape/util/Color.js" true}}})

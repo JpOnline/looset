@@ -1,0 +1,26 @@
+(ns looset-diagram-mvp.ui.initial-state)
+
+(def
+ initial-state
+ {:domain
+  {:graph
+   {"test-resources/source-code-examples/cbs_to_graph.clj<>cbs-to-graph"
+    #{"code-blocks"},
+    "test-resources/source-code-examples/cbs_to_graph.clj<>random-def"
+    #{"code-blocks" "another-random-def"},
+    "test-resources/source-code-examples/cbs_to_graph.clj<>file-info-with-code-blocks"
+    #{"code-blocks" "identifier"},
+    "test-resources/source-code-examples/cbs_to_graph.clj<>file-code-blocks-with-file-path"
+    #{"code-blocks" "file-info-with-code-blocks"},
+    "test-resources/source-code-examples/cbs_to_graph.clj<>main" #{},
+    "test-resources/source-code-examples/code_blocks.clj<>code-blocks"
+    #{},
+    "test-resources/source-code-examples/code_blocks.clj<>another-random-def"
+    #{},
+    "test-resources/source-code-examples/code_blocks.clj<>identifier"
+    #{"identifier"}}},
+  :ui
+  {:closed-dirs
+   {"test-resources/source-code-examples" true,
+    "test-resources/source-code-examples/code_blocks.clj" true,
+    "test-resources/source-code-examples/cbs_to_graph.clj" true}}})
